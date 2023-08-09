@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Saira+Semi+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600,700&family=Saira+Semi+Condensed:wght@700&display=swap');
 
 :root {
   --head-font: 'Saira Semi Condensed', sans-serif;
@@ -137,10 +137,56 @@ nav {
    border-bottom-left-radius: 10px;
 }
 .catalog .plant-description{
-   background-color: rgba(0, 0, 0, 0.5);
+   background-color: rgb(255, 255, 255);
    border-top-right-radius: 10px;
    border-bottom-right-radius: 10px;
+   /* padding: 10px; */
+   box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.3);
 }
+.catalog .plant-description span{
+   font-weight: 700 !important;
+}
+.catalog .plant-description p{
+   font-size: 1.5rem;
+   font-family: var(--text-font);
+   margin: 0px 0px 0px 10px;
+}
+
+.plant-description{
+   height: 400px;
+   position: relative;
+}
+.plant-description img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   object-position: center;
+   position: absolute;
+   left: 0;
+}
+.plant-description .info{
+   width: 80%;
+   height: 100px;
+   background-color: rgba(0, 0, 0, 0.3);
+   backdrop-filter: blur(20px);
+   position: absolute;
+   color:white;
+   bottom: 0;
+   font-size: 2rem;
+   padding: 5px 20px;
+}
+
+.plant-description a{
+   background-color: var(--primary-color);
+   padding: 5px 15px;
+   color: white;
+   border-radius: 15px;
+   display: inline-block;
+   font-size: 1.2rem;
+   right: 10px;
+   text-align: right;
+}
+
 
 
 .contact{

@@ -1,0 +1,8 @@
+<p class="mb-0 name"><span>Name:</span> Snake Plant</p>
+                                <p class="mb-0 scientificName">Scientific Name: Sansevieria trifasciata</p>
+                                <p class="mb-0 origin">Origin: West Africa</p>
+                                <p class="mb-0 watering">Watering: Every 2-6 weeks</p>
+                                <p class="mb-0 light">Light: Low to bright indirect light</p>
+                                <p class="mb-0 price">Price: $25.99</p>
+                                <p class="mb-0 category">Category: Indoor</p>
+                                <a href="#">Add to Cart</a>
