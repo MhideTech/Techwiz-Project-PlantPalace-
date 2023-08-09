@@ -131,6 +131,17 @@ nav {
    border: 2px solid var(--primary-color);
 }
 
+.catalog .plant-img{
+   background-color: rgba(0, 0, 0, 0.3);
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+}
+.catalog .plant-description{
+   background-color: rgba(0, 0, 0, 0.5);
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+
 
 .contact{
    width: 100%;
