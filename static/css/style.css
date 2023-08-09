@@ -1,4 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Saira+Semi+Condensed:wght@700&display=swap');
+
+:root {
+  --head-font: 'Saira Semi Condensed', sans-serif;
+  --text-font: 'Quicksand', sans-serif;
+  --primary-color: #006400;
+  --secondary-color: rgb(112, 224, 0);
+  --color-white: #fff;
+}
 
 /* Universal Stylings */
 *, *::before, *::after{
@@ -17,7 +25,7 @@ html {
 
 /* Scroll-bar Stylings */
 html::-webkit-scrollbar-thumb {
-	background-image: linear-gradient(-45deg, #e16521, #e4381c);
+	background-image: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
 }
 html::-webkit-scrollbar {
 	width: 5px;
@@ -30,274 +38,49 @@ html::-webkit-scrollbar {
 	opacity: 0;
 }
 
-/* Navigation bar Stylings */
-.nav {
-	height: 50%;
-	position: fixed;
-	/* background-image: var(--gradient-primary); */
-	top: 0;
-	right: 0;
-	width: 20%;
-	z-index: 999;
-	transition: 1s;
-	width: fit-content;
-	padding: 30px 20px;
+nav {
+  /* background-color: rgba(0, 0, 0, 0.455);  */
+  height: 13vh;
+  width: 90%;
+  border-bottom: 1px solid white;
+  transition: 0.3s;
+  position: sticky;
+  top: 10px;
 }
-.nav-box {
-	width: 100%;
-	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-top: 20px;
+.navbar-brand,
+.offcanvas-title {
+  font-family: var(--head-font);
+  font-size: 30px !important;
+  color: white;
 }
-.nav-box ul {
-	display: block !important;
-	list-style: none;
+.dropdown .dropdown-menu {
+  max-height: 300px;
 }
-.nav-box li {
-	width: 30rem;
-	font-size: 2rem;
-	margin-bottom: 4rem;
-	font-weight: 700;
-	font-family: var(--text-font);
-    position: relative;
-}
-.nav-box li::before{
-    content: "" !important;
-    position: absolute !important;
-    left: 0 !important;
-    bottom: 0 !important;
-    width: 50px !important;
-    height: 2px !important;
-    background: orange !important;
-    border: 4px !important;
-    scale: .1 !important;
-    transform-origin: left !important;
-    transition: scale .25s !important;
-}
-.nav-box li:hover::before{
-    scale: 1 !important;
-}
-.nav-box li a {
-	color: white !important;
-}
-.nav-box ul li a:hover {
-	color: black;
-}
-.nav-open-button {
-	width: 50px;
-	height: 50px;
-	position: fixed;
-	background-color: red;
-	right: 30px;
-	top: 30px;
-	cursor: pointer;
-	border-radius: 50%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	z-index: 1000;
-	box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
-}
-.nav-open-button div {
-	width: 30px;
-	height: 3px !important;
-	background-color: black;
-	margin: 3px 0;
-	transition: 0.5s;
-}
-.nav-open-button.close div:nth-child(1) {
-	transform: translateY(9px) rotate(45deg);
-}
-.nav-open-button.close div:nth-child(2) {
-	opacity: 0;
-}
-.nav-open-button.close div:nth-child(3) {
-	transform: translateY(-9px) rotate(-45deg);
-}
-
-/* Glitch Animation Effect */
-.glitch-wrapper {
-   width: 200px;
-   height: 80px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   text-align: center;
-   background-color: transparent;
-   color: white;
-   position: fixed;
-   top: 10;
-   left: 10;
-}
-.glitch {
+.navbar .offcanvas-body ul li a{
+   color: var(--color-white);
+   font-size: 1.7rem;
+   font-family: var(--head-font);
    position: relative;
-   font-size: 3rem;
-   font-weight: bold;
-   color: #FFFFFF !important;
-   letter-spacing: 3px;
-   z-index: 1;
 }
-.glitch:before {
-   content: attr(data-text);
+.navbar .cart .cart-btn{
+   color: var(--color-white);
+   font-size: 2rem;
+}
+.navbar .navbar-nav .nav-item .nav-link::before{
+   content: "";
    position: absolute;
-   top: 0;
-   left: -2px;
-   width: 100%;
-   color: 50px;
-   background-color: transparent;
-   color: white !important;
-   overflow: hidden;
-   clip: rect(0, 900px, 0, 0);
-   animation: noise-before 3s infinite linear alternate-reverse;
+   left: 0;
+   bottom: 0;
+   width: 40px;
+   height: 2px;
+   background: var(--secondary-color);
+   border: 4px;
+   scale: .1;
+   transform-origin: left;
+   transition: scale .25s;
 }
-
-.glitch:after {
-   content: attr(data-text);
-   position: absolute;
-   top: 0;
-   left: 2px;
-   width: 100%;
-   color: 50px;
-   /* background-color: red; */
-   color: white !important;
-   overflow: hidden;
-   clip: rect(0, 900px, 0, 0);
-   animation: noise-after 2s infinite linear alternate-reverse;
-}
-
-@keyframes noise-before {
-   0% {
-      clip: rect(61px, 9999px, 52px, 0);
-   }
-   5% {
-      clip: rect(33px, 9999px, 144px, 0);
-   }
-   10% {
-      clip: rect(121px, 9999px, 115px, 0);
-   }
-   15% {
-      clip: rect(144px, 9999px, 162px, 0);
-   }
-   20% {
-      clip: rect(62px, 9999px, 180px, 0);
-   }
-   25% {
-      clip: rect(34px, 9999px, 42px, 0);
-   }
-   30% {
-      clip: rect(147px, 9999px, 179px, 0);
-   }
-   35% {
-      clip: rect(99px, 9999px, 63px, 0);
-   }
-   40% {
-      clip: rect(188px, 9999px, 122px, 0);
-   }
-   45% {
-      clip: rect(154px, 9999px, 14px, 0);
-   }
-   50% {
-      clip: rect(63px, 9999px, 37px, 0);
-   }
-   55% {
-      clip: rect(161px, 9999px, 147px, 0);
-   }
-   60% {
-      clip: rect(109px, 9999px, 175px, 0);
-   }
-   65% {
-      clip: rect(157px, 9999px, 88px, 0);
-   }
-   70% {
-      clip: rect(173px, 9999px, 131px, 0);
-   }
-   75% {
-      clip: rect(62px, 9999px, 70px, 0);
-   }
-   80% {
-      clip: rect(24px, 9999px, 153px, 0);
-   }
-   85% {
-      clip: rect(138px, 9999px, 40px, 0);
-   }
-   90% {
-      clip: rect(79px, 9999px, 136px, 0);
-   }
-   95% {
-      clip: rect(25px, 9999px, 34px, 0);
-   }
-   100% {
-      clip: rect(173px, 9999px, 166px, 0);
-   }
-}
-
-@keyframes noise-after {
-   0% {
-      clip: rect(26px, 9999px, 33px, 0);
-   }
-   5% {
-      clip: rect(140px, 9999px, 198px, 0);
-   }
-   10% {
-      clip: rect(184px, 9999px, 89px, 0);
-   }
-   15% {
-      clip: rect(121px, 9999px, 6px, 0);
-   }
-   20% {
-      clip: rect(181px, 9999px, 99px, 0);
-   }
-   25% {
-      clip: rect(154px, 9999px, 133px, 0);
-   }
-   30% {
-      clip: rect(134px, 9999px, 169px, 0);
-   }
-   35% {
-      clip: rect(26px, 9999px, 187px, 0);
-   }
-   40% {
-      clip: rect(147px, 9999px, 137px, 0);
-   }
-   45% {
-      clip: rect(31px, 9999px, 52px, 0);
-   }
-   50% {
-      clip: rect(191px, 9999px, 109px, 0);
-   }
-   55% {
-      clip: rect(74px, 9999px, 54px, 0);
-   }
-   60% {
-      clip: rect(145px, 9999px, 75px, 0);
-   }
-   65% {
-      clip: rect(153px, 9999px, 198px, 0);
-   }
-   70% {
-      clip: rect(99px, 9999px, 136px, 0);
-   }
-   75% {
-      clip: rect(118px, 9999px, 192px, 0);
-   }
-   80% {
-      clip: rect(1px, 9999px, 83px, 0);
-   }
-   85% {
-      clip: rect(145px, 9999px, 98px, 0);
-   }
-   90% {
-      clip: rect(121px, 9999px, 154px, 0);
-   }
-   95% {
-      clip: rect(156px, 9999px, 44px, 0);
-   }
-   100% {
-      clip: rect(67px, 9999px, 122px, 0);
-   }
+.navbar .navbar-nav .nav-item .nav-link:hover::before{
+   scale: 1;
 }
 
 
@@ -309,7 +92,7 @@ html::-webkit-scrollbar {
 			rgba(0, 0, 0, 0.6),
 			rgba(0, 0, 0, 0.6)
 		),
-		url(../images/background.jpg);
+		url(../images/landing-page-bg.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -317,20 +100,21 @@ html::-webkit-scrollbar {
 	justify-content: center;
 	align-items: center;
 	background-attachment: fixed;
-    clip-path: polygon(0 0, 100% 0, 100% 93%, 80% 99%, 0 93%);
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 50% 99%, 0 93%);
 }
 .landing-page h1 {
 	font-size: 6rem;
 	width: 50%;
-    color: white;
+   color: white;
+   font-family: var(--head-font);
 }
 .landing-page a {
-	background: red;
+   border: 2px solid var(--color-white);
 	color: white;
 	display: inline-block;
 	margin: 3rem 0rem;
-	font-family: var(--text-font);
-	font-size: 1.5rem;
+	font-family: var(--head-font);
+	font-size: 1.3rem;
 }
 .landing-page a:hover {
 	color: var(--color-white);
@@ -388,14 +172,22 @@ html::-webkit-scrollbar {
 }
 
 @media only screen and (max-width: 991px) {
-    svg {
-        top: -20px;
-        left: -60px;
-    }
-    .nav {
-		top: -100px;
-        right: -50px;
-	}
+   svg {
+      top: -20px;
+     left: -60px;
+   }
+   .offcanvas {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+  }
+   nav .active {
+   color: RGB(235,218,118) !important;
+   }
+}
+
+@media screen and (max-width: 767px) {
+  .offcanvas {
+    backdrop-filter: blur(10px) !important;
+  }
 }
 
 @media only screen and (max-width: 576px) {

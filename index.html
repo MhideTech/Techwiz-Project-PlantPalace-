@@ -11,49 +11,50 @@
 </head>
 <body>
 
-    <!-- Logo -->
-    <div class="glitch-wrapper">
-        <div class="glitch" data-text="Glitch Text">Glitch Text</div>
-    </div>
+    <nav class="navbar navbar-dark fixed-top navbar-expand-md mx-auto">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          >Plant<span style="color: var(--primary-color)">Palace</span></a
+        >
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"> <span class="navbar-toggler-icon"></span></button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title mx-auto" id="offcanvasNavbarLabel">
+              Plant<span style="color: var(--primary-color)">Palace</span>
+            </h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1">
+              <li class="nav-item mx-lg-3 mx-auto">
+                <a class="nav-link active" aria-current="page" href="#carouselId" >Home</a>
+              </li>
+              <li class="nav-item mx-lg-3 mx-auto">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item mx-lg-3 mx-auto">
+                <a class="nav-link" aria-current="page" href="#book">Contact</a>
+              </li>
+              <li class="nav-item mx-lg-3 mx-auto">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+            </ul>
+            <div class="cart justify-content-end align-items-center d-flex">
+              <a href="#" class="cart-btn mx-auto heartbeat"><i class="bi bi-cart4"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-    <!-- Navigation Toggle Button -->
-    <div class="nav-open-button">
-		<div></div>
-		<div></div>
-		<div></div>
-	</div>
-
-    <!-- Navigation Bar -->
-	<nav class="nav hidden">
-	    <div class="nav-box">
-			<ul>
-				<li class="link">
-					<a href="#">Home</a>
-				</li>
-				<li class="link">
-					<a class="text-secondary" href="#about-us">About Us</a>
-				</li>
-				<li class="link">
-					<a class="text-secondary" href="#procedure-category">Procedure Category</a>
-				</li>
-				<li class="link">
-					<a class="text-secondary" href="#testimonials">Testimonials</a>
-				</li>
-				<li class="link">
-					<a class="text-secondary" href="#appointment">Book an Appointment</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
 
     <!-- Landing Page -->
     <div class="container-fluid landing-page">
 		<div class="container">
-			<span class="greeting">With Patrick Potter</span>
 			<h1 class="w-sm-75">
 				Build Perfect Body Shape for Good and Healthy Life
 			</h1>
-			<a href="#appointment" class="py-4 px-4">BECOME A MEMBER</a>
+			<a href="#appointment" class="py-4 px-4">LEARN MORE</a>
 		</div>
     </div>
 
