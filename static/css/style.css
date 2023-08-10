@@ -534,6 +534,9 @@ footer .copyright{
   .instagram-shop{
    height: 200px;
   }
+  .navbar  ul li a{
+   margin: 2rem 0rem;
+  }
 }
 
 @media only screen and (max-width: 576px) {
