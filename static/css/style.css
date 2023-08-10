@@ -105,8 +105,8 @@ html::-webkit-scrollbar {
 			rgba(0, 0, 0, 0.6)
 		),
 		url(../images/landing-page-bg.jpg);
-	background-size: cover;
-	background-position: center;
+	background-size: cover !important;
+	background-position: center !important;
 	background-repeat: no-repeat;
 	display: flex;
 	justify-content: center;
