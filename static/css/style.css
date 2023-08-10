@@ -65,7 +65,7 @@ html::-webkit-scrollbar {
   color: white !important;
 }
 .dropdown .dropdown-menu {
-  max-height: 300px;
+  max-height: 400px;
 }
 .navbar  ul li a{
    color: var(--color-white);
@@ -535,7 +535,7 @@ footer .copyright{
    height: 200px;
   }
   .navbar  ul li a{
-   margin: 2rem 0rem;
+   margin: 2.5rem 0rem;
   }
 }
 
