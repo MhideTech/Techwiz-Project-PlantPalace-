@@ -360,6 +360,101 @@ nav {
     border-left: 0px solid transparent;
 }
 
+
+
+
+.about-landing{
+   width: 100%;
+   height: 150px;
+   background-color: rgba(0, 0, 0, 0.1);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.about-landing h1{
+   font-size: 4rem;
+   font-family: var(--head-font);
+}
+.about-landing p{
+   font-size: 1.5rem;
+   font-family: var(--text-font);
+   line-height: 35px;
+}
+.about-us .img{
+   width: 80%;
+   height: 400px;
+   margin: 0px auto;
+   background-image: url(../images/about-us.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.about-us .text{
+   height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.about-us .text p{
+   font-family: var(--text-font);
+   font-size: 1.8rem;
+}
+.about-us .text h6{
+   font-family: var(--text-font);
+   font-size: 1.3rem;
+   line-height: 20px;
+}
+.about-us .text a{
+   background-color: var(--primary-color);
+   font-size: 1.5rem;
+   color: var(--color-white);
+   font-family: var(--head-font);
+   padding: 15px 30px;
+   display: inline-block;
+}
+.about-us .text h1{
+   font-size: 3rem;
+   color: var(--primary-color);
+   font-family: var(--head-font);
+}
+.about-offer h1{
+   font-family: var(--head-font);
+}
+
+.instagram-shop{
+   height: 300px;
+   background-color: #292929;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.instagram-shop .img ul{
+   display: flex;
+}
+.instagram-shop .img ul li{
+   width: 130px;
+   height: 130px;
+   background-size: cover;
+   background-position: center;
+}
+.instagram-shop .img ul .insta-1{
+   background-image: url(../images/insta-1.jpg);
+}
+.instagram-shop .img ul .insta-2{
+   background-image: url(../images/insta-2.jpg);
+}
+.instagram-shop .img ul .insta-3{
+   background-image: url(../images/insta-3.jpg);
+}
+.instagram-shop .img ul .insta-4{
+   background-image: url(../images/insta-4.jpg);
+}
+.instagram-shop .img ul .insta-5{
+   background-image: url(../images/insta-5.jpg);
+}
+.instagram-shop .img ul .insta-6{
+   background-image: url(../images/insta-6.jpg);
+}
+
 @media only screen and (max-width: 991px) {
    svg {
       top: -20px;
