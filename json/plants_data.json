@@ -6,7 +6,7 @@
     "watering": "Every 2-6 weeks",
     "light": "Low to bright indirect light",
     "price": 25.99,
-    "image_url": "https://img.freepik.com/free-photo/snake-plant-white-pot_53876-95437.jpg?w=360&t=st=1691666240~exp=1691666840~hmac=3112d672c7990db9577abbf8efa5d9a3b7be43733dbcd2e0ff68dfe776ce6b8c",
+    "image_url": "./static/images/plant-json-imgs/img-1.webp",
     "id": "001",
     "category": "Indoor"
   },
@@ -17,7 +17,7 @@
     "watering": "Every 3-4 weeks",
     "light": "Low to moderate indirect light",
     "price": 19.99,
-    "image_url": "https://img.freepik.com/free-photo/zz-plant-gray-pot_53876-134285.jpg?w=740&t=st=1691664722~exp=1691665322~hmac=4c837bd0f6a6ac3f25557a1cf9a9fe0f2da909385e81354abfd5f84bb4846c10",
+    "image_url": "./static/images/plant-json-imgs/img-2.webp",
     "id": "002",
     "category": "Indoor"
   },
@@ -28,7 +28,7 @@
     "watering": "Keep soil evenly moist",
     "light": "Low to moderate indirect light",
     "price": 32.5,
-    "image_url": "https://img.freepik.com/free-photo/peace-lily-plant-white-pot_53876-133124.jpg?w=360&t=st=1691667427~exp=1691668027~hmac=2020c67a82d83fa1db5c7d11a39345276cfe71f2c5837c4585f86b015c5b89b9",
+    "image_url": "./static/images/plant-json-imgs/img-3.webp",
     "id": "003",
     "category": "Indoor"
   },
@@ -39,7 +39,7 @@
     "watering": "Keep soil evenly moist",
     "light": "Moderate to bright indirect light",
     "price": 12.99,
-    "image_url": "https://img.freepik.com/free-photo/palm-tree-house-plant-pot_53876-125837.jpg?w=360&t=st=1691667555~exp=1691668155~hmac=0bb3efaeed649f8f47b83a338954e6fea1f6ce01269cc55c2694f993cb8235ca",
+    "image_url": "./static/images/plant-json-imgs/img-4.webp",
     "id": "004",
     "category": "Indoor"
   },
@@ -50,7 +50,7 @@
     "watering": "Allow soil to dry between waterings",
     "light": "Low to moderate indirect light",
     "price": 18.75,
-    "image_url": "https://img.freepik.com/free-photo/alocasia-polly-plant-terracotta-pot-home-decor-object_53876-133128.jpg?w=900&t=st=1691665042~exp=1691665642~hmac=a89ab4dc130a1b67019beb47f9e9621afc5b3d092c1031eb71047907f13f590b",
+    "image_url": "./static/images/plant-json-imgs/img-5.webp",
     "id": "005",
     "category": "Indoor"
   },
@@ -61,7 +61,7 @@
     "watering": "Allow soil to dry partially between waterings",
     "light": "Moderate to bright indirect light",
     "price": 29.95,
-    "image_url": "https://img.freepik.com/free-photo/rubber-plant-terracotta-pot-home-decor-object_53876-146608.jpg?w=360&t=st=1691665127~exp=1691665727~hmac=a721d9acd5447981f15c10cce05c7bec9fc2433f7a5d6c77eea8ad262a942320",
+    "image_url": "./static/images/plant-json-imgs/img-6.webp",
     "id": "006",
     "category": "Indoor"
   },
@@ -72,7 +72,7 @@
     "watering": "Every 1-2 weeks",
     "light": "Indirect bright light",
     "price": 45.0,
-    "image_url": "https://img.freepik.com/free-photo/minimal-tropical-leaf-arrangement_23-2148955687.jpg?w=360&t=st=1691665175~exp=1691665775~hmac=ed7eb3aec67e3acd47a03a0dfe13c72c466e806b817d3bd933cfbdd2992c120c",
+    "image_url": "./static/images/plant-json-imgs/img-7.webp",
     "id": "007",
     "category": "Indoor"
   },
@@ -83,7 +83,7 @@
     "watering": "When top inch of soil is dry",
     "light": "Bright, indirect light",
     "price": 65.5,
-    "image_url": "https://img.freepik.com/premium-psd/green-plant-decoration-design-mockup_53876-142496.jpg?w=360",
+    "image_url": "./static/images/plant-json-imgs/img-8.webp",
     "id": "008",
     "category": "Indoor"
   },
@@ -94,7 +94,7 @@
     "watering": "Allow soil to dry between waterings",
     "light": "Bright, indirect light",
     "price": 14.99,
-    "image_url": "https://img.freepik.com/free-vector/realistic-aloe-leaves_1284-35956.jpg?w=740&t=st=1691665800~exp=1691666400~hmac=182b2ba67d9145b6b59bd55e6e5b358d7aa388446c79226ae018cc3d8b85a28d",
+    "image_url": "./static/images/plant-json-imgs/img-9.webp",
     "id": "009",
     "category": "Indoor"
   },
@@ -105,7 +105,7 @@
     "watering": "Keep soil evenly moist",
     "light": "Low to moderate indirect light",
     "price": 22.25,
-    "image_url": "https://img.freepik.com/free-photo/gardening-concept-with-plants_23-2148000300.jpg?w=360&t=st=1691665844~exp=1691666444~hmac=8925a2f8cd8dc259c325f61a18f23514838f79ca52a67361f730a9bac421b8b3",
+    "image_url": "./static/images/plant-json-imgs/img-10.webp",
     "id": "010",
     "category": "Indoor"
   },
@@ -117,7 +117,7 @@
     "watering": "Keep soil consistently moist",
     "light": "Bright, indirect light",
     "price": 8.99,
-    "image_url": "https://img.freepik.com/free-photo/selective-shot-purple-orris-flower-light_181624-46454.jpg?w=740&t=st=1691665928~exp=1691666528~hmac=932f6d123fc7e651ac583c1cc2fd3907fdf8d1c82465abf4abe03c618c6d5c36",
+    "image_url": "./static/images/plant-json-imgs/img-11.webp",
     "id": "011",
     "category": "Indoor"
   },
@@ -128,7 +128,7 @@
     "watering": "Allow soil to dry slightly between waterings",
     "light": "Low to moderate indirect light",
     "price": 14.5,
-    "image_url": "https://img.freepik.com/free-vector/green-potted-plant-room-interior-realistic-vector-illustration_1284-66947.jpg?w=740&t=st=1691665979~exp=1691666579~hmac=9a8314422acc438d0ec4da2b61a786f3b05c653ad794e734cfc770b8030c601d",
+    "image_url": "./static/images/plant-json-imgs/img-12.webp",
     "id": "012",
     "category": "Indoor"
   },
@@ -139,7 +139,7 @@
     "watering": "Keep soil evenly moist",
     "light": "Bright, indirect light",
     "price": 17.25,
-    "image_url": "https://img.freepik.com/free-photo/fiddle-leaf-fig-plant-pot_53876-146301.jpg?w=360&t=st=1691666075~exp=1691666675~hmac=83f833a259e6ca2bf621e9a4317c773c324d9d9c63da45d4f273aab1a469f263",
+    "image_url": "./static/images/plant-json-imgs/img-13.webp",
     "id": "013",
     "category": "Indoor"
   },
@@ -150,7 +150,7 @@
     "watering": "Allow soil to dry between waterings",
     "light": "Moderate to bright indirect light",
     "price": 9.99,
-    "image_url": "https://img.freepik.com/premium-photo/green-ivy-plant-isolate-white-background_34152-2460.jpg?w=360",
+    "image_url": "./static/images/plant-json-imgs/img-14.webp",
     "id": "014",
     "category": "Indoor"
   },
@@ -161,7 +161,7 @@
     "watering": "Keep roots submerged in water",
     "light": "Bright, indirect light",
     "price": 12.75,
-    "image_url": "https://img.freepik.com/premium-vector/bamboo-pot-design-house-room-office-interior-bamboo-lucky-plant-pot-chinese-tree-sprout_106796-1557.jpg?w=740",
+    "image_url": "./static/images/plant-json-imgs/img-15.webp",
     "id": "015",
     "category": "Indoor"
   },
@@ -172,7 +172,7 @@
     "watering": "Allow top inch of soil to dry between waterings",
     "light": "Moderate to bright indirect light",
     "price": 28.0,
-    "image_url": "https://img.freepik.com/free-photo/shallow-focus-vertical-shot-indoor-green-plant-pot-with-blurred_181624-22834.jpg?w=360&t=st=1691667823~exp=1691668423~hmac=a923ba4047dece24f896f0b22123bcfaaa1e87d8f1bf84a06a1d3feaeb2c0662",
+    "image_url": "./static/images/plant-json-imgs/img-16.webp",
     "id": "016",
     "category": "Indoor"
   },
@@ -183,7 +183,7 @@
     "watering": "Allow soil to dry between waterings",
     "light": "Bright, indirect light",
     "price": 19.5,
-    "image_url": "https://img.freepik.com/free-photo/vertical-high-angle-shot-beautiful-plant-white-vase-white-surface_181624-19144.jpg?w=360&t=st=1691667879~exp=1691668479~hmac=092c14f90ce657f7de39fd3a779ba4131d7bc3e984d162469de2b7ac40572138",
+    "image_url": "./static/images/plant-json-imgs/img-17.webp",
     "id": "017",
     "category": "Indoor"
   },
@@ -194,7 +194,7 @@
     "watering": "Allow top inch of soil to dry between waterings",
     "light": "Low to bright indirect light",
     "price": 11.25,
-    "image_url": "https://img.freepik.com/free-photo/potted-plant-alocasia-popular-houseplant_53876-128862.jpg?w=360&t=st=1691667939~exp=1691668539~hmac=6f50ab065d21ae1e0fcd2beb3cfef9c823ce5d3e58a33b0877d59903d75644cc",
+    "image_url": "./static/images/plant-json-imgs/img-18.webp",
     "id": "018",
     "category": "Indoor"
   },
@@ -205,7 +205,7 @@
     "watering": "Allow soil to dry partially between waterings",
     "light": "Bright, indirect light",
     "price": 34.75,
-    "image_url": "https://img.freepik.com/free-photo/gardening-concept-with-plants_23-2148000300.jpg?w=360&t=st=1691667980~exp=1691668580~hmac=af1a010fc5f4b514c0cbbd5743cc68694e2d03c4c6899b2062e675b3010dfefe",
+    "image_url": "./static/images/plant-json-imgs/img-19.webp",
     "id": "019",
     "category": "Indoor"
   },
@@ -216,7 +216,7 @@
     "watering": "Allow soil to dry slightly between waterings",
     "light": "Bright, indirect light",
     "price": 15.99,
-    "image_url": "https://img.freepik.com/free-photo/bunny-ears-cactus-flowerpot_53876-65617.jpg?w=360&t=st=1691668032~exp=1691668632~hmac=602bb7eaa3b801110b92a522cebce593057f406fdcac90879f617956dcc88f99",
+    "image_url": "./static/images/plant-json-imgs/img-20.webp",
     "id": "020",
     "category": "Indoor"
   },
@@ -228,7 +228,7 @@
     "watering": "Regular watering",
     "light": "Full sun",
     "price": 12.99,
-    "image_url": "https://img.freepik.com/free-photo/rose-flower-white-isolated_2829-14266.jpg?w=360&t=st=1691668071~exp=1691668671~hmac=571ba0b7cb69a80f9f8b94d484214850d58d8adcc81b9b96be338705068af47a",
+    "image_url": "./static/images/plant-json-imgs/img-21.webp",
     "id": "021",
     "category": "Outdoor"
   },
@@ -239,7 +239,7 @@
     "watering": "Moderate watering",
     "light": "Full sun",
     "price": 8.75,
-    "image_url": "https://img.freepik.com/premium-photo/lavender-herb-flowers-whitefloral-border_154730-167.jpg?w=360",
+    "image_url": "./static/images/plant-json-imgs/img-22.webp",
     "id": "022",
     "category": "Outdoor"
   },
@@ -250,7 +250,7 @@
     "watering": "Regular watering",
     "light": "Full sun",
     "price": 6.5,
-    "image_url": "https://img.freepik.com/premium-vector/sunflower-nature-background_1308-14061.jpg?w=360",
+    "image_url": "./static/images/plant-json-imgs/img-23.webp",
     "id": "023",
     "category": "Outdoor"
   },
@@ -261,7 +261,7 @@
     "watering": "Regular watering",
     "light": "Full sun",
     "price": 3.99,
-    "image_url": "https://img.freepik.com/free-photo/cherry-bush-tomatoes-healthy-vegetables-healthy-food-beautiful-fresh-red-tomatoes-twig_1161-849.jpg?w=360&t=st=1691668262~exp=1691668862~hmac=45a25b89cf34b363e1d018c0efcf5446d79cc128a383fa257676a367d7a7f2b3",
+    "image_url": "./static/images/plant-json-imgs/img-24.webp",
     "id": "024",
     "category": "Outdoor"
   },
@@ -272,7 +272,7 @@
     "watering": "Regular watering",
     "light": "Partial shade to full sun",
     "price": 14.25,
-    "image_url": "https://img.freepik.com/free-photo/vertical-shot-blue-hydrangea-flowers-garden_181624-36830.jpg?w=360&t=st=1691668368~exp=1691668968~hmac=f8b614ec7b3670bc036ce80d4d0188932f7008f632727ac5fb503233d5810b88",
+    "image_url": "./static/images/plant-json-imgs/img-25.webp",
     "id": "025",
     "category": "Outdoor"
   },
@@ -283,7 +283,7 @@
     "watering": "Regular watering",
     "light": "Full sun to partial shade",
     "price": 18.99,
-    "image_url": "https://img.freepik.com/free-photo/bouquet-pink-peonies_2829-20018.jpg?w=996&t=st=1691668444~exp=1691669044~hmac=aba898e3a6f9cf77266b3361318e892297e8c2fcb35cd87d27df4db416131066",
+    "image_url": "./static/images/plant-json-imgs/img-26.webp",
     "id": "026",
     "category": "Outdoor"
   },
@@ -294,7 +294,7 @@
     "watering": "Moderate watering",
     "light": "Full sun to partial shade",
     "price": 5.5,
-    "image_url": "https://img.freepik.com/free-photo/flowers-daffodils-keukenhof-flower-garden-lisse-netherlands-holland_155003-24409.jpg?w=360&t=st=1691668654~exp=1691669254~hmac=f900f7aed0246fbbcdec1260f035fab318ece4ccb7a652e727891d82715e81e0",
+    "image_url": "./static/images/plant-json-imgs/img-27.webp",
     "id": "027",
     "category": "Outdoor"
   },
@@ -305,7 +305,7 @@
     "watering": "Regular watering",
     "light": "Partial shade to full sun",
     "price": 4.25,
-    "image_url": "https://img.freepik.com/free-photo/selective-focus-shot-basil-leaves_181624-51036.jpg?w=900&t=st=1691668717~exp=1691669317~hmac=4828e666a62db39ec9988ed659fe8c48bed713d073f46edac9bb76929c5ad667",
+    "image_url": "./static/images/plant-json-imgs/img-28.webp",
     "id": "028",
     "category": "Outdoor"
   },
@@ -316,7 +316,7 @@
     "watering": "Regular watering",
     "light": "Full sun",
     "price": 7.99,
-    "image_url": "https://img.freepik.com/free-photo/vertical-shot-pink-diascia-flowers-basket_181624-25537.jpg?w=740&t=st=1691668808~exp=1691669408~hmac=b89b42e8ca0e397ff9a1b8bb962a6ac44473ff69ba38d9509bb5e80f22e13d50",
+    "image_url": "./static/images/plant-json-imgs/img-29.webp",
     "id": "029",
     "category": "Outdoor"
   },
@@ -327,7 +327,7 @@
     "watering": "Regular watering",
     "light": "Full sun",
     "price": 5.75,
-    "image_url": "https://img.freepik.com/free-photo/red-flower-with-background-out-focus_1259-100.jpg?w=1060&t=st=1691668862~exp=1691669462~hmac=73594f000450424bf9f3ac6201ec9d99716324366b876fe84d9395d34bf90bcb",
+    "image_url": "./static/images/plant-json-imgs/img-30.webp",
     "id": "030",
     "category": "Outdoor"
   },
@@ -339,7 +339,7 @@
     "watering": "Moderate watering",
     "light": "Full sun to partial shade",
     "price": 9.25,
-    "image_url": "https://img.freepik.com/free-vector/vector-tropical-plant-red-ginger-flower-alpinia-purpurata-pot-isolated-white-background_1284-48356.jpg?w=740&t=st=1691668984~exp=1691669584~hmac=8b9c0b983dc4982bb3179695b1bd4490767117dc7128b2ac5f5086d5565c987d",
+    "image_url": "./static/images/plant-json-imgs/img-31.webp",
     "id": "031",
     "category": "Outdoor"
   },
@@ -350,7 +350,7 @@
     "watering": "Infrequent watering",
     "light": "Full sun",
     "price": 11.5,
-    "image_url": "https://img.freepik.com/free-photo/cereus-cactus-pot_53876-134292.jpg?w=360&t=st=1691669087~exp=1691669687~hmac=b6f4c94a46c734f70d9de70701e59841e1985e03760b56f4c4e093f2cc005007",
+    "image_url": "./static/images/plant-json-imgs/img-32.webp",
     "id": "032",
     "category": "Outdoor"
   },
@@ -361,7 +361,7 @@
     "watering": "Varies by herb",
     "light": "Full sun to partial shade",
     "price": 6.99,
-    "image_url": "https://img.freepik.com/free-photo/selective-focus-shot-growing-green-plants-with-greenery-background_181624-31684.jpg?w=1060&t=st=1691669148~exp=1691669748~hmac=36a55f790030afb95e1236af28d51a236133d4ed11c530fd9bbc020d589781dd",
+    "image_url": "./static/images/plant-json-imgs/img-33.webp",
     "id": "033",
     "category": "Outdoor"
   },
@@ -372,7 +372,7 @@
     "watering": "Regular watering",
     "light": "Full sun to partial shade",
     "price": 4.75,
-    "image_url": "https://img.freepik.com/free-photo/bouquet-daisies-flowers-white-isolated_2829-14017.jpg?t=st=1691669194~exp=1691669794~hmac=617c5be65e05f8eebde7d71985b44e7bc8afaf0f40da98d718babeaea211511e",
+    "image_url": "./static/images/plant-json-imgs/img-34.webp",
     "id": "034",
     "category": "Outdoor"
   },
@@ -383,7 +383,7 @@
     "watering": "Regular watering",
     "light": "Full sun to partial shade",
     "price": 8.25,
-    "image_url": "https://img.freepik.com/free-vector/realistic-chrysanthemum-bouquet-with-colorful-flower-bulbs-dark-background-vector-illustration_1284-82060.jpg?w=740&t=st=1691669239~exp=1691669839~hmac=ca10ee432629ebdfeee3e5fb5beb9b6a4936408136b37f6cdd32530d7632d621",
+    "image_url": "./static/images/plant-json-imgs/img-35.webp",
     "id": "035",
     "category": "Outdoor"
   },
@@ -394,7 +394,7 @@
     "watering": "Regular watering",
     "light": "Full sun to partial shade",
     "price": 5.99,
-    "image_url": "https://img.freepik.com/free-photo/pink-snapdragon-flower-is-beautiful-bloom-flower-garden_1150-20357.jpg?w=1060&t=st=1691669319~exp=1691669919~hmac=2f1318472a9d5ca66115abdf2ce1a98d6e4a1140afe79606eb0f54da3cf15370",
+    "image_url": "./static/images/plant-json-imgs/img-36.webp",
     "id": "036",
     "category": "Outdoor"
   },
@@ -405,7 +405,7 @@
     "watering": "Regular watering",
     "light": "Full sun to partial shade",
     "price": 7.5,
-    "image_url": "https://img.freepik.com/free-photo/leaves-fresh-swiss-chard_23-2148585786.jpg?w=740&t=st=1691669375~exp=1691669975~hmac=ba3d42659a3d29185dee2249b8a17ac5c1816f2189e91a3f9a8fd4246011bcd1",
+    "image_url": "./static/images/plant-json-imgs/img-37.webp",
     "id": "037",
     "category": "Outdoor"
   },
@@ -416,7 +416,7 @@
     "watering": "Regular watering",
     "light": "Full sun",
     "price": 3.75,
-    "image_url": "https://img.freepik.com/free-photo/orange-flower_1142-809.jpg?w=1060&t=st=1691669425~exp=1691670025~hmac=0c7dea2b1b2ceebfc99c58fc0f978cbedd998d3bbb03442b6182a7a2a4d96e0c",
+    "image_url": "./static/images/plant-json-imgs/img-39.webp",
     "id": "038",
     "category": "Outdoor"
   },
@@ -427,7 +427,7 @@
     "watering": "Regular watering",
     "light": "Full sun",
     "price": 6.25,
-    "image_url": "https://img.freepik.com/free-photo/close-up-viola-tricolor-flowers-flower-bed_169016-20595.jpg?t=st=1691669458~exp=1691670058~hmac=3c082f1c2d7ecf4219c34dc27544107297455376cd12ba9640b62e9c7f3da04d",
+    "image_url": "./static/images/plant-json-imgs/img-39.webp",
     "id": "039",
     "category": "Outdoor"
   },
@@ -438,7 +438,7 @@
     "watering": "Regular watering",
     "light": "Full sun",
     "price": 12.99,
-    "image_url": "https://img.freepik.com/free-photo/pretty-flowers-stones_23-2147829245.jpg?w=1060&t=st=1691669553~exp=1691670153~hmac=039320dd4e6754c53332229203a657827dd11ed70ad719e40f29e1b6919e1dff",
+    "image_url": "./static/images/plant-json-imgs/img-40.webp",
     "id": "040",
     "category": "Outdoor"
   },
@@ -450,7 +450,7 @@
     "watering": "Keep soil evenly moist",
     "light": "Indirect light",
     "price": 12.99,
-    "image_url": "https://img.freepik.com/free-photo/cereus-cactus-pot_53876-134292.jpg?w=360&t=st=1691669594~exp=1691670194~hmac=6c61c7c27f5fbce0a3f93cd9672371b21eee64013faee050b9661f12ede13d6b",
+    "image_url": "./static/images/plant-json-imgs/img-41.webp",
     "id": "041",
     "category": "Flowering Succulent"
   },
@@ -461,7 +461,7 @@
     "watering": "Allow soil to dry between waterings",
     "light": "Bright indirect light",
     "price": 9.5,
-    "image_url": "https://www.greenmeadowgrowers.com/wp-content/uploads/kalanchoe-tomentosa-Panda-Plant-533x800.jpg",
+    "image_url": "./static/images/plant-json-imgs/img-42.webp",
     "id": "042",
     "category": "Flowering Succulent"
   },
@@ -472,7 +472,7 @@
     "watering": "Allow soil to dry between waterings",
     "light": "Full sun to light shade",
     "price": 8.25,
-    "image_url": "https://img.freepik.com/free-photo/vertical-closeup-shot-aloe-vera-plant-clay-pot-wooden-surface_181624-32624.jpg?w=360&t=st=1691669889~exp=1691670489~hmac=9183420804822f63b45984e35a92d5b4977659c6592729272d280a791ffcb4c7",
+    "image_url": "./static/images/plant-json-imgs/img-43.webp",
     "id": "043",
     "category": "Flowering Succulent"
   },
@@ -483,7 +483,7 @@
     "watering": "Allow soil to dry between waterings",
     "light": "Bright sunlight",
     "price": 10.99,
-    "image_url": "data:image/jpeg;base64,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",
+    "image_url": "./static/images/plant-json-imgs/img-44.webp",
     "id": "044",
     "category": "Flowering Succulent"
   },
@@ -494,7 +494,7 @@
     "watering": "Allow soil to dry between waterings",
     "light": "Full sun to light shade",
     "price": 7.75,
-    "image_url": "https://img.freepik.com/free-photo/cactaceae-green-garden-cactus_181624-16639.jpg?w=900&t=st=1691670039~exp=1691670639~hmac=72f42755e418aa18085c45f41136395e8307eaf6c58787aa2ec37125598c0ea9",
+    "image_url": "./static/images/plant-json-imgs/img-45.webp",
     "id": "045",
     "category": "Flowering Succulent"
   },
@@ -505,7 +505,7 @@
     "watering": "Allow soil to dry between waterings",
     "light": "Bright sunlight",
     "price": 14.25,
-    "image_url": "https://img.freepik.com/free-photo/gardening_23-2148020341.jpg?w=360&t=st=1691670089~exp=1691670689~hmac=d0b21344b1691e7a24ee90ed4fd343b57bc42390f2ea2a95bb6b607ed8b378ca",
+    "image_url": "./static/images/plant-json-imgs/img-46.webp",
     "id": "046",
     "category": "Flowering Succulent"
   },
@@ -516,7 +516,7 @@
     "watering": "Allow soil to dry between waterings",
     "light": "Bright sunlight",
     "price": 6.99,
-    "image_url": "https://img.freepik.com/free-vector/strelitzia-reginae-flowerpot_107791-105.jpg?1&w=360&t=st=1691670127~exp=1691670727~hmac=642b90c6add2822f700510528c2a919fac727e4093be4abf7762eba080425ec9",
+    "image_url": "./static/images/plant-json-imgs/img-47.webp",
     "id": "047",
     "category": "Flowering Succulent"
   },
@@ -527,7 +527,7 @@
     "watering": "Allow soil to dry between waterings",
     "light": "Full sun",
     "price": 18.5,
-    "image_url": "https://img.freepik.com/free-photo/golden-barrel-cactus-white-pot_53876-142817.jpg?w=360&t=st=1691670273~exp=1691670873~hmac=3da3cca6b3c954aabeecc538298777957f7238f0aa2bc17c299462cbd193b5f2",
+    "image_url": "./static/images/plant-json-imgs/img-48.webp",
     "id": "048",
     "category": "Flowering Succulent"
   },
@@ -538,7 +538,7 @@
     "watering": "Allow soil to dry between waterings",
     "light": "Bright sunlight",
     "price": 9.99,
-    "image_url": "https://img.freepik.com/free-photo/organic-tarragon-bucket-marble-surface_114579-63973.jpg?w=360&t=st=1691670383~exp=1691670983~hmac=2942aa705d9e8064090159efbde82a920a8a66693fd5a71ecfdf7e941cb68ffe ",
+    "image_url": "./static/images/plant-json-imgs/img-49.webp",
     "id": "049",
     "category": "Flowering Succulent"
   },
@@ -549,7 +549,7 @@
     "watering": "Allow soil to dry between waterings",
     "light": "Bright sunlight",
     "price": 11.75,
-    "image_url": "https://img.freepik.com/free-photo/overhead-view-green-white-leaves-houseplant_23-2148058858.jpg?w=740&t=st=1691670439~exp=1691671039~hmac=39bb0b3bd1913f329ed20890ededfb8e8dd7bc12e976dda10a9a164afb9dcca2",
+    "image_url": "./static/images/plant-json-imgs/img-50.webp",
     "id": "050",
     "category": "Flowering Succulent"
   },
@@ -561,7 +561,7 @@
     "watering": "Regular watering",
     "light": "Full sun",
     "price": 18.99,
-    "image_url": "https://img.freepik.com/free-photo/top-view-flowers-purple-beautiful-isolated-white-floor_140725-13410.jpg?w=360&t=st=1691670555~exp=1691671155~hmac=9a98358639a994e16638a0b7de83778bfa32cddebe56025d621c6be63cd86ea5",
+    "image_url": "./static/images/plant-json-imgs/img-51.webp",
     "id": "051",
     "category": "Shrub"
   },
@@ -572,7 +572,7 @@
     "watering": "Regular watering",
     "light": "Partial shade to full sun",
     "price": 14.5,
-    "image_url": "https://img.freepik.com/free-photo/beautiful-red-poinsettia-assortment_23-2149138676.jpg?w=360&t=st=1691670597~exp=1691671197~hmac=d5a05e12994864c52ce79269a54dedf1a45d423c0fe62b4a8563e01e0548228f",
+    "image_url": "./static/images/plant-json-imgs/img-52.webp",
     "id": "052",
     "category": "Shrub"
   },
@@ -583,7 +583,7 @@
     "watering": "Regular watering",
     "light": "Full sun to partial shade",
     "price": 12.75,
-    "image_url": "https://img.freepik.com/free-photo/closeup-shot-beautiful-azalea-flowers-garden_181624-32551.jpg?w=1060&t=st=1691670650~exp=1691671250~hmac=166362dc46230c76151b8f9f629b83f03504693722e0c3ab657658508f454628",
+    "image_url": "./static/images/plant-json-imgs/img-53.webp",
     "id": "053",
     "category": "Shrub"
   },
@@ -594,7 +594,7 @@
     "watering": "Regular watering",
     "light": "Partial shade to full sun",
     "price": 15.25,
-    "image_url": "https://www.provenwinners.com/sites/provenwinners.com/files/imagecache/500x500/ifa_upload/dp_proven_winners_buxus_sprinter_boxwood_0_copy.png",
+    "image_url": "./static/images/plant-json-imgs/img-54.webp",
     "id": "054",
     "category": "Shrub"
   },
@@ -605,7 +605,7 @@
     "watering": "Regular watering",
     "light": "Full sun",
     "price": 11.99,
-    "image_url": "https://img.freepik.com/free-photo/selective-focus-shot-growing-green-plants-with-greenery-background_181624-31684.jpg?w=1060&t=st=1691670798~exp=1691671398~hmac=c19907a018997bdd48a1b947df6be23e242ae4edc9793e4d2460e6a0ea22e875",
+    "image_url": "./static/images/plant-json-imgs/img-55.webp",
     "id": "055",
     "category": "Shrub"
   },
@@ -616,7 +616,7 @@
     "watering": "Regular watering",
     "light": "Partial shade to full sun",
     "price": 17.5,
-    "image_url": "https://img.freepik.com/free-photo/little-bonsai-tree-with-pink-flowers_1268-14279.jpg?w=1060&t=st=1691670831~exp=1691671431~hmac=b34852f03cc70c2639a26935637e7eaf18824caf90c3fb41bfc5a9d3333145bf",
+    "image_url": "./static/images/plant-json-imgs/img-56.webp",
     "id": "056",
     "category": "Shrub"
   },
@@ -627,7 +627,7 @@
     "watering": "Regular watering",
     "light": "Partial shade to full sun",
     "price": 19.75,
-    "image_url": "https://img.freepik.com/free-photo/hydrangea-flower-closeup_1372-65.jpg?w=1060&t=st=1691670879~exp=1691671479~hmac=d16618ded2a41d9358233edc6d5e27329ae85d011c599b762a0d53bb5f254675",
+    "image_url": "./static/images/plant-json-imgs/img-57.webp",
     "id": "057",
     "category": "Shrub"
   },
@@ -638,7 +638,7 @@
     "watering": "Regular watering",
     "light": "Full sun to partial shade",
     "price": 16.99,
-    "image_url": "https://img.freepik.com/free-photo/beautiful-orange-tree-with-ripe-fruits_23-2148991687.jpg?w=360&t=st=1691670912~exp=1691671512~hmac=f6143719b5f383b116b58abc7ab7214cfea0a984510dbac9b53cc7ce4eda51bb",
+    "image_url": "./static/images/plant-json-imgs/img-58.webp",
     "id": "058",
     "category": "Shrub"
   },
@@ -649,7 +649,7 @@
     "watering": "Regular watering",
     "light": "Full sun to partial shade",
     "price": 14.25,
-    "image_url": "https://img.freepik.com/free-photo/flowers-bird-cherry_181624-26628.jpg?w=740&t=st=1691670971~exp=1691671571~hmac=76b3d01b4c4d792367e566e2f1794f3a40dc2e121949fec4788d400c54b24a71",
+    "image_url": "./static/images/plant-json-imgs/img-59.webp",
     "id": "059",
     "category": "Shrub"
   },
@@ -660,7 +660,7 @@
     "watering": "Regular watering",
     "light": "Full sun to partial shade",
     "price": 13.5,
-    "image_url": "https://img.freepik.com/free-photo/beautiful-red-poinsettia-assortment_23-2149138676.jpg?w=360&t=st=1691671023~exp=1691671623~hmac=88bf4c6c7f669f416903c21a7727fb1315693df1dc5eef881dbcdbcdbd8827f6",
+    "image_url": "./static/images/plant-json-imgs/img-60.webp",
     "id": "060",
     "category": "Shrub"
   },
@@ -672,7 +672,7 @@
     "watering": "Regular watering",
     "light": "Full sun to partial shade",
     "price": 14.99,
-    "image_url": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoGBxUUExYUFBUWGBYYGSIcGxoZGiIgGhwcIhwiHCIhHxwcISsiGhwpICEdJDYoKCwuMTExISI3PDkwOyswMS4BCwsLDw4PHRERHTIoIikyMjIyMDAwMDIwMDAyMDAwOTAyNjAyMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMP/AABEIAL4BCgMBIgACEQEDEQH/xAAbAAADAQEBAQEAAAAAAAAAAAADBAUCBgEAB//EAD8QAAIBAgUCBAMGBAQGAgMAAAECEQMhAAQSMUEFUSJhcYETkaEyQrHB0fAGFFLhI2Jy8RUzgqLC4pKyQ3OT/8QAGQEAAwEBAQAAAAAAAAAAAAAAAQIDBAAF/8QAKxEAAgICAgEEAgEDBQAAAAAAAQIAEQMhEjFBEyJRYYGhcQSR4SOxwdHx/9oADAMBAAIRAxEAPwDhKLkMdAI1CB87+/8AbHtPI1aupdzuZ89vzwSkS5BHht4jIAI9+cEFf7cAsVMi+9pt58YVQPMYKPMVpoQrCoigqYgDf549agPhll3jbmcZfrAYszNAgDTyTz6nDeRpaFFSVKtcA/av5YU8bqZSFupLq9QcKq6Q0C884x8YNEwkD6+WOkzopvEqs+Yt6YnZtrlNKidiAIxzrx6NwugU0CDNUWYqFcwxG/H++BK7INKsTpmxG/z88Zok6jTedoB7ThavJqBQY07mcIBJhfPiNZFajMQw1DdrTHrGw88UKdHQQad1mSv5icWv4VBUHTTpxUHjqpUJqW2lW0gd/CYI7kYr08hRdnZqSM+4JSxEH2J5vtA23xI5gvcahVznMnndBJJJ9OJwrmQDcSCTNjb0w51jJfA8a1FLar01X7K3ubkb2j1xMVSQWAtN/KcaPUZlA8R2Z2AX4hW1Ohc2K2jyxvKUTo16tM/T1wPL1ABEmCNUHFVMmlREJbxNBA2kbWHN5vhVJLd7nIrFiPMj5vob1QqqZ1G7dsMU+mtTAWmusjdzsMdBT6eZBHHEj8MYqS5+GTo8+2HyLxNCWfHuqnEdW6Q7PqZ1B7YA+QeiVJhlPIx0XUOn00MwXH9RO/thDMI5PgBiNowovqT4m6hf5TYhjfAatSog3nDVGbTa3ON5pPCRuTfDBdzQW1Jb9WYbjBaPWT6e+A5jo7uZ2HbCtXo7KDczg8RAGaWqP8UqBBLTihl/4kECSR64405NwJxkUnx1TuRnfU/4npnZhh3L9fpn7yz64/NaZdZthdqjcjDAn5gNfE/XB1NDsyn3x6M8DyPnj8pyxLNpBIJB+YE43k67MyjWYnucNzMWh8T9TOZWcLV3b7rmJ52EXxx3WMrVAQUGcux2B498dJVylRFojWVIUhxIOpv2DiWXIeNRHAA1Hc3WEslmJAmOD+WFmoHSbEAiD6ESfe5xinmJrVYkw0dvK2HalRiCDIBTj0H4TjIyIqg9nyIp4ABhs/Em0smodSmoECfIkDkcfrhT4X/7MWadIrcdgCSY3tHyxvQ/C24/cYiST0IAL3U5BunqswTGgMpB7tyDbaRjFbL/AAXamCDM27rvMxcHyx0lTp2WZIFYKhhlMeIKDOk8ACTv5Y2MhTUF0aqwIOlwswTMalEFlHyPNjjV66+R+pclSNzkaqob7QJNpnuN8Gq1raUQqoFjuPlxGMfybKSzDkMLRKkm8TABE288dD0rIUSE1JUFRampCabgG8gA/ZqAET/bersoFyToJGLj4YcQVVgpqC4EiwPnhzIdIp1BrY82Ia9vw9MW/wDhi/DI0D4bbgAaCTf5+eHOkdKTLozAVFaYg7LvcbxxjM+Wl4gxaocROZXJKatUapCECI2lQd++Og6d06hTgikjHkv4mPbytjOZ6KlSoG+KabswYhVJVwYJmwgkDfv3w7kKhFxSdUT7EgBiNhOqCbd8K2T26MBWhoz7MZkDSllAnwpbe9uJww9dnpoFKwO+7WsI9N8KVK0qzAFFBi4BZha4I8yR9e+HFLMXakIQrpA8x97yP5Yxl/dYkz9wGbylGsgNRDqiNQn5Hb+2E/5SkoZdIggDygYczpYBWix3k2B7QMSOrNUiZEf5Rt+uNNnW/wDEDeKMr5TKUCL00nglZA9pE4NQ6bTpkFAmsCAkXKzEgjiJ/XCfQ/i6JqwF3DMo7TxfFvN6TRR20loBhGNxyQRuOdsTLsrdxkYjzJTsuoqs7x38oFr2/HHtbpGqA7EEr4YF79xPrbDpoUy/iCqWMq0nxRBMe0d8MqCFDTHi2kGItA33xpf+tLAACaH/AKgtQE5R+iOLagwBPkflfGF6PUU2BI8jjp8wqszFY3wOnTbHoJRUGKGM5Ovk6l9VI+uEn6c4vDekHH6DTozvj1sr54bjG5T8+dyBBA9zfGUckQRbvju6+UpfeVT7XxFr9PWox0KR5bYHGNynPPTm3E48qZQA7X7nHWJ/D9ML4hqY+e2MVP4cpG+pwfXA4bncjc4ytkZN8YPSATaCe2OtzP8ADsiFcGO4vhen0B1bUCGjie2+FOpxacxk+nAOGsNJBvj1+gAVBpFgwI9Iv9cdJW6SymVQEGZE8c4+zGVZbwbfhv8AnhGNSbZPMjdWZ0agVbQTIny2x0eVulNTLEIp1E7m9/WfxxO6vlRV0FgfDf64qJTFMUkHZRHoAMRybAiPksAxRqBWp8QfeqCbcTJwZmJ1DmYF/SfyxvMTCgGL395/TGdcK7W5j3IAOIkXJki9RShmzUeJhIkW3439MUhk24cRxf8AtiPlWYuojwBJkbTJ4xa14A1GGXjqcl0rOMgZWWQ5MX2naf3vh/MdUJRUWAEIC2vYRB7xt73xKydWlDEAgm7CbXtaTgdOvpcgnV2tvb71u35YtxUsSRNaAdyq+SSpqqCo5cX0SNLTNlYmxkHyme+KeVyIosdQJsDpDTTUkRCKYAG0mJPfCfTs0pGpaDF4AZrEC/CxA9ZnDNSoukqKdQu27H7O5I5v6efOEOXi2xqKcnE7H+0oBoAuVBEkA+Fu4I29xfBKnWHI+FoItcg3229D5XxMoL4fiMGLKxFlEaZPhN7i/bnGqeXCAvTrC51BGWNMbgNyAeDfzOEzOmT3AAeJPLkV9qKj/WFmkKrZgUlYabEIwYX0gk7xwO3OJPTuokrClmvE1Kx16dpCm0xex98VatH+Zok2DsV3Em3Kg8ESLXF8Rs10T4FVg6Fw0HWLRJJjTN4ncb9uyJx4UZPXEw+fzdRxoElFgGBFvXk4rVc1UIBpgFDTEqRCi4MDkkAR74U6PmaS0qk3KkECILWgAT2i/bC/Seo6FZajGCZUBbyTJvNh+/WDL7tyY+5SSo0QQNJ4Nzv57ieTjOXrK8BQSJj7J3mI+dsByC1KrHQCACblT+74rfDrAAlwoAMgKNRbuCQDx387Y0scdDjo/cs642rjqbz6tpIKxCwQPy4MfucLGhSy4VSS5MBiRJ0zDRB7W9sHiq4DLUEEXaSIgXkHY8wO+A5Ou1RWSp8NSFFP4inS8nax3Pv29RlyGxFJ1NdZlqWtI+GphhuYkxI+QIJ88CbMtTCooaGvBvAJtE7n93wjWzUKKatYkncgjSYO1ysnY4OwYgEMAVIkNAVvfYTwcFAaAIk7Lah8xnNBV7FKlweB74FmurVEBYLqWfl649o0AqDXpMmwgkJFr739MerXldYhknSJFpG9jN7WxtxZ6AEujWADEk/i5hIKXwWv/FbQAEudjiqKFJ4JpqSe4x4/8P0G+5Hpj0BsAgxrkE9YcEl4M9uMW8jUUAOTd9hhPqX8GML0WMk7Hb54238J1QQBVkRyfvDjyGIvnRDsiPVystQdsfVoMYk13qURDKYHN4PvjGT6spIBJtinqgixElCusAx3GFPjlWE8mDgmZzq8AkFrYn1s0rakuJEg+YviTZNybHcYWvup3E/L9/hgWYrz7iPmMCFeSCed/fY/MDHmbAEdwb/P+2EdrGpItqYo1CV28/lhvN/8wDlR+AH54SpnxxO9/wAsbrE/EHmD+GEJ1F5aqfViTHqv/lP4YDmQfhL3tbzknGKtfwH1J/7T+c41o8CmdgP/AK/3wlTi1iLUHv5hIjjFilTOkbbd8RVtP+qPzxSQmBjiILnCDLNq1I4jVN9wN7gTq/XDeVpHWA4MGSZ4P5YFl8vdPGGuLC5jUDHnFsMBytUifCbCRvLTtxi5J8T0p5luq1KOsK7BQ1lm2/PAsPPnF/I5ha9LUMwV8ckRL2AlZEQPT+2IvS6CuKi1qRa8rUAIm9h2nt8sUeifDoT8MNBMEvG8b8X74hmWwaG/xJ5F5dSj1MPSCpSEybzempAAMAHUSTJibXvhnpmXNXU1WnELpFyEG+o6eN15m2Ody/VKssyyqltQAOk+RHKmMX8p1FPgkl3ZifFNQNBtIB1EwIG/yxlKkdiZ/PUom0BRZQIAWwEGPb13wHqTUR4mpg1Hk6laCOPFaGHkZxNas0+BmIaIBJ09ojbbt5Yq5rLipS+GWCmJ2ll8W42Jn17YdXWwG/UZXUmmGpHpdMqKwZ9gbMoWCe1vLfFihRosQHUISPtOyx6ATvv+4wpRpVaQCVWDtupA3HF+SII22xmousec7xYwY24/2w2T0ilk7EpWPh3uP141AUmQtTQwVJGoA9wdII8zf8Gc8rgeCfsjUSPESeAePTc4RyXUCIpK1ManNkpk+xJLAxa5jDVWsSQssQpn7XJFy0R2tvvjGNkDqQoHUYSs7RVVyGgAKAAAfMHf3wjXdEZWdEio12iPEfICO3ODNQqHU3B2YbH07x54ndcydQCB4UYTE2YjbmO3zxdcQOhsx+AIpdmY6/1AoyhEUqra5FtVirDz3PvBvhqlEQP8PUI8a+GY2I8+0x88L5ZQyorgNA3aCfX3jGnz7axTaJQgKs2dY3JidQ/fONJw5MQDLRv/AJj+k+OmFG/iN9OorTPgCf6A0MW7gEkbTYR64aaujVLI6+KDKwpb3JvG/Mc4Qz9c6Q6KAUOqdzbtECMF6HmDWDfFdrXA2SAf2ffGXMj42thRMm6sre4VKTVYfQqjnxBbEgbEGw9cO9OPjCOdriLAc+h9sSaHV3daiagArQpjxFSTECcMNngjHSgUCNR4MzGAmVydTkaW2U3jfz3GBl/EOeDH7tcYUpVSfEZuBYj8u/6Y1mM2Qp1WJPHkfxjfEL5Gab1F+p1SdAP9RBB/pLAfK+Feo9OpGaoGlhwtgb749z5IcGfvSt5JA3kcTbHlYgpGq5Ym2w/c4srstUZL5kPMkgLPBOE3ptJMGxF42MD6YruNT054vHoDg/TXu6sLMY+kfl9Mb8RDHvuRkRqmx28u234H6Y81k6hyD+WofgRj3NJEEbTHoeMCWpcN7H1FxgdakzDZerJF7qb/AOmcaqV/FPYMB8sJ0nioCPQ+h5wYpZp3FvmQPywxizFSmWWFBJYxA3m4wQnSNMzAMxttt54TOYZVJuCDY4KgsSeSYH0J9MAw+INHPufF/wBpGHHrXN8BoUwNpkgD08vrjxzc44idID1QrKVEjRvG3BMc7YJn9Q0O1wws25NiBfnfm+2AmhVH+HTUkm+q3od/fbG1Z6afCqKVCkEKRYi0x7/lip0Z6Y7qUOn58AFXiYjwKANoiAAI22wm1UhEEgxxzJmST3k4Jms1NUBFQjTqZufIC8bRj2oC0uolUIJ428j+zGJkACzJkeJQoUXddDIPiabaTI8p5E9r4cPTtKhHVQ25VQNI9LTtGJGSR3rLUpsG+6VBvHmPU/hhnqWarZcyI8cQIB1HztM4CngvJf7Vr+85TxHIf4h8uatgFhUa3JJ3HoNucOvm6lWrKLuRa1lG+/IvgdBq1JS9UJLD7A/q+7fvsCMe9K6gKRZPhPrZj/iCPFqa28afTGBmYsWIFzKW5NylLNZxAyI7mZkWNj3mNMyLC/1xzWe6dVR6lRalRaN2OsnV3JIHHP44qr1OpRqtqphlABJYmST2Pb1GE+t1c3WqfEprUWjFgrSq/IDVPmMMrEndQk8p90ZihPw6ihnUMWcxpG9wTcnt64p0M6+l4qq0kAsI4FwCNsFylCjTRFCKxKDVrVZLx4jqAkz5n0jA85nlUfDWlFidVgoJYAAAbklvLCZAwaqgYFTRhsvTJy4KswZtzwva3p+OPOo9SqU9AgOg+0HExfgm23ljeWpOtFwD9pbeRH6i2FqTOwYIEbVurmPFFrgXuPphsdHs1FUk+ai9ICpVWop8AlW8V953HI/TAOoZFhURyRpZwNZ4GqF1C14P1OH8tkKdMFaVPQSZYFi0H/qJt6W27YJmiywvw2dCoOuJi5t5G18a8L429pJB/U04+DLxJIP6iWV6gHJp6pAYjUPstf8AT8MPoVpOCCQrjSRut9ri6+uwwjXCqQNLfDYgqFXZpg+Z45xtNNOqqowqKQSUYnUJ33vvcSP6sHPk5IUcWR0Z2TNalGGx5lbMGHCPADGQR90iAJPtvjdYgVWFTaZ38Jm8EcHErN9YqU2D1VVlMKRuReB+NzhLOdSK1W30sPsMbAC1j2BjseIxlXGeF/EzopPunXtnVVSbaTe+3aPM4zSPxAZBABNiTBG32hsMc90LPfGrFNXBNgB2Bi9rYt/ESkxCNUj7wBBna/eZI9cZeJBsyxehBlywGqZAIlQSdo25wBGOixUxvw0+YPnihUWwuxLiQQPEuwk3BO/HyNsRK9R1YrUbxT96fEPI87c4uwBAIg5i9TOYqXJ8vD5ydvrga5gqah/DaSPyxnNVJIHYfnhMgnX6x8lPGLIK3JXB5zMRB50gEewIPrvjFJ52P2hY+e4+tvnhbMuGZwIJAEe3AwDJ5mZB23BPB/Q41FNAzmXUeWpD3m4t8tvxw4rzPmB9CPywhXa2rkfv9fnjeTqCAJ3Bj0OFHUmRPczT1Np2EaiewBuce1ahYFgLXCjyGCZh9l+8Yn6wPz+WB1ahOmCZZqjf9wx3idD028RHn+f+2FnomTvgtNv8QX+nbSZ+v0xifM4NzpPbPBVcTIO3DAxbbg7H2xuojRTUwQx8YtK+fYQMRhr0hmWSfugxYHuP3vi3WoinUNNmKwJfSZZZGxYXnyF8Oxo/c9IMCNxnpBpVGqUXVXUXSopAZTsZI3mRY4pL0VWCqCFtGoiYXtAIEkycc1lKwWsq0pOkElouRMR4hItjpTU+LTLXt9pAx1DwydoO3I/PDXjCEMfd4jD0+Jvue5upl8ooUVFLC7BFsD3IvBPmScbpr8RqhChmp3QbBjJkobQYEgyBfzxIGSpIyKiSxsAZ0i07xBtinkesPTbQoVnUCYEArMX7EA4yBq/02YgeZmViAUY0Ih1U/FzP8u8gAiGkyzRqgTt2xquKnxjoqCVAsRKyu50zuOSIwz1Xp7NVSoAA4AItyDIII39cF6RlqbPrYVadWmSAGA0XEHaS0j0G3qZEKzUmxJlLak3Nnq9Yu7mijCSFTV90GAdUWnfY4L0bK1UqmpULBWtpL6jyQLeEwTHffbGumdCo0G+JTH+I0g+KyyZIEQAthBPGGcznyApCSCb7jw9xI4JGKehjVCzGvro1LDEoXk5/EWzucKLqqUkZGbSIJkGbRYkSPPAaiJTV2dTcjSCdRuYieQJn54pPkxpVfiFJOsoEnUAe/wAr89rxgHwBUoL8Txgn4szBUwNisWjjGUBWagaH3IFQzUND7ghm6goEML28S+sSRHzjGKGQhSayltJPhRiCw7HadsH6fSuxMqpMTqBt3gCx8jON/wAx4o1EKdmYbA7THG354fGcfIjIfyI+MICQ09pVqTANT2YSDz+uD1czCk+LYix39zzH98KHJPSBBIqBmLDTwDePQG3pGC1KtJIFTWNSgxEMJkRbn074uuTGqcSLPgxw6cCpXfgznq3R2qIQQ9OqCDvJN9pFp7C18OZLp5a9ek6VJszTqA4huCPPecdHn8oagQosOCCutZjm6m2oeeN5moahhvIkIQpJHEkEgTwDhVy7+f5kkG/mR+p5MuJVgXC/eIholhJsLYRXp1HMBPi1SNZOkCB4wIPjkgkTMEX88UqSIoZHfSwNiSSCextMY+yVSk5ZSkk3lVFyN5J9t8XZlKFl19f9SjlSpZNfIm+hdIpZZGmoWquIZgSIUElRA59ebYZ6XmNUMtMgKxDEmGI8lPlBvz2wiBpIgNIP3rW7kTEen0w10zMmlFI8g+KDdiZudgb2GMRRn3M/LzJPV8+FnxPqR0lSCCAxi3EelowvnqjSVBJMqd779zhhenBC1JhZCdJm5Fyv1iffAs20H7UmBMbSOe4m+NvojjqEVdCeVqw+IvYsPwwnTrD/ABT5f/aPyONV3laZ2M/+JwHMZcqhX7zn8BEfTBGOGpKZ9jG957zjKSD7298GKVAA5RtI5Ij5TjfTYesuoAR4t72uLeuNLDUqwHG4fLsCp8x9RjOVYADuCR9f0xQq5SaupI0mGb1M/jhPNdMdWJAGgzBkdvx49sQ47maxPdfiHmf/ACX9cMUqenST91GJ/wCpyfwGNUaYmm8cSfYT+QxrqQIVhH2mRY/ygKD9ScI3xOmskA1MVJ8V/lb84wlq8/rh/LkFGIAEsQALAeM2A4FsTNPnhgRCYnTy5MMDEKAAfIciDzfD3Regspdq0MGbUV1E6j5k+d8Sch1habzU1VFA8IkC/dmidote98N5L+LSaxBTwNYQZ023uBJ+WL465Hn1N6cbPLqfZIrl8z/iGUClQQN7SJ8yQBi0KlQ02+IijwtHw7SeJJJMfvywnmaGX0CvUJca7hDtOxIMHiON8Gy/VBVJSilQpp8pA7RJ1Rv3xlJxsxJBrdH+JIcGYk/ibrtWQj4DAqFLEGIUBgpM8ESZ8pxTo0KgCVCwMkFxpAkC8dwMJU886CWT/D0EF1UmPJtIJvf3wxk6yMo0V73bT8RXMm8aSSR6DtjGd0xH8/f5kxQNkXNZVVesFM1IUmSyrpkwVprvAudjxfDVHJCkCpLatUiYLQL+KZ5sJG2J+cDqulURajDwPJPO8cHtfnywJctXUB1qKx2YMCCJ3kSQx5Hzxy5K2tCHnx2sttWMeEgPeJHlyYsO2EemZ5loI6AVfHEXi4M7HwtIHrgOb6iFjVqcxYSQPSfXFrpubTSCiuxeNRJFiL29O5GOdy/uaI+QsbMT11SVCui0I102BlxIgqWBIiTO1tIvGN16U1F+KWcgXB2J7wIHnh6jURWqACZNgASJJkiYuSe2JvWk+DT+INWlFuSS4I2jXGo8Tqw2MpzBIsR0KBgW2J9lcl9r4bKgAvrm58yJiL/PDuc6S3wVRKslqfiYixns6DwRwfTEnoObD6StVaYKDcKHJEjTDA+tvLFfM9QROApMLxE8t2PNvIYXOV9Q8RrxBkKliR14i2Ryzo2l21Uh3kGflYeRPOF+q5emKxelUdviGXptBUQANSkGVaw+u1sUamZCuwVg8WknmfcH5RjOYpKKY+KjkTc0zGkcMFE6gNiL98OpXkL68iAMvIA9SfQzTKAvxD/lLE77gE/nii2aq2EDcNAaTsPvHiZMRsRjnc4qtXfLs50wGSpYgzfxDdYaR+mN0unmmNVNmAcTEmNuBx/fDZgvLkoofcGQry9ooS5n/h1tJGqnVF9hpP6Ef74kLrLQFICSpZTEmbqRv6HB8s1oUHccmdoNj5/nj01KZBZCVv4p3nkEg8Y0nCCoZQRr8fiVyY7AZQRq/wAQdIvTOpzEncX9jq4jH2e6tqXwlT3IX6EGxGNU6bVHWnupMkE2MC3oO/fHr/w+oUg6gdYI0yYpxBEA/a1cnsPeaHGD7u5mUWdSXSzjNIqF4Yghv7nbBGytmEwVH47TO84Tz+ZBYrRLFAB/zAAZ5NuNsay5BVVZmVpkwfYb/u+NoIMNkeYGqraAug2P7tinlsyGAZlvTIIBPPHz598e1svqSx23jciMap0BUVeClm5Pl6nHUPELPyF11BZqi1T7e0HY7evc48y+RUEQAqgXbyj6nyx7mMvogs5gbdyewxjMUi6E3Lg+EbQJvbvHOOJ8QA8qBOo6TpACqrJI5Mm3P6YWz1PUabHdagH/AEsY+mE1z5WF1aiSLR7Wi2NZU1n1swMKPleRYWmQMKywnGQbMeyFPwAH/wDG7qf9JBwFlPxwG2KT/wBWqfx/DFD4wUm1nJnyJuPnce+Jq5r7DEX0kn0MtHrf6YkQZyITM5IE0Fjkk/Mx/wCWF3y9WTAtxip06jFFAeACfW5/GME1RaYjjthYQuzPzl6QlgDabe2N1aFSkyMADewggkCDfgDjed8Of8NQk1Q3ikMqzFgRIHc/qMP08vUqGKYlivhXkzEkd++LkgTZx1uZ6v0iuVSoitUpVAGQUxOklfvjdWuR2thfoGfrU3SmqFlDHUoHj8VrybQYHG18dj0uqaVNUZGUqIKi+9ySRMX7d8MUsxOgK6hS8va5A843xNyioKIJ+IjKqqCDZ+Iq+hXK1XsVuokgnedvtYa6FUpIdYpi4ZFJ3IEeLYlVP6Y8q5WnrZtYJqPFO32J22uTMekYotW0ko8yB97njc3M++MmPE2TIUY0fuIuNnam0YOtk0Workio+o6TFkEFyAdoBPrPNsJMPhAABYH9IIBHud8fZ3PD7GuCICACQWM7xuABPHzwrSrVWpMwEsH+048JAjYeZkT/AL4hlxFWIPQNRHXiSsLWahUEkVRFvEIB+W+K3R6EUkKqoQkwQD8SO8sd59BHGImcSqyqrsuuLhYEf2xTzuZanlqVJCQwpgSN9t8TC6IkjqFyWep0SDUcw3i2ko0yTbjbEXO9UrNUrUdRFOYp1FtrUid/vWO4MG+Gek5lICVGAOwJ78A+frgfUwCWRkKlbWPhncERtxjVgQmgBf6lMKF2qpMzmUT4fiHhAgEWNr2j3xT6TlVFBXqspF9DFfHoiRrI3E8xtGFer5aoQvwFDUoGs809R3KgzA3mDscX+q1AlL4cXVADa32fsjvjs7BwKFQ5WBOhUl1QJ10PF5bfI3kHzjGKvVKlhTYKYurN+Fp1eRHbbCXSs5yGKkfe+4fXt77YdqUJL1WRLyDexsBq8u3qJ5wgCgX/AOyIHkwlDK03WHXUZnVpGrjnt+WPesZ8UiCWEFYgg9/K84D0hH8Z+0BdbiSpuTPPb598eJnFq6KiCYkMtrg342IO3F2xrd8L49DYml2xFLUUZnpmf+IHI0wrwW42mbAR/vix/IJSRqo0v8UzMysxtbg3PffEvIU1q1XGXUrTIHxSw0gNJFoNyV7WthitkfgPp1nSQCQxiePnibZfaFN0PET1SRxY68Q2UpMpLiVBsADcDn1HtNsEyecbWSzGIInsOPP3x4tdT4KdQatypMkjaQfb1xC6jmK6VjTpwoBmXvIMbc2IMHzjjCY05sRIE/Ez/EPSf5fQ61CUY6g+952Mb7++FVpEv8VgBP2VmBP1tPGD06FRrMVImWHBHJG0H25xjrGYVkFMH7TACBMAG/0tjeoIFGC/AjS5l2kaVUgd7H6be2HcorOp1Rb7PacSsvXRSqAMeNTfmZnDmQZKeo6nJYzpmefkLyMPFNxHPAg+JiDzM7+gw1kc2YmNS7SN5/PDLmjUJYrDesx7H8xibB1aHbwH7J2APYgW+WB0JX2kG+4fNZVC+qRDC3cH174ZbPHVAAVeYHMfU+eAVk0KALTMxv33wOqi6SVkSRpJtHef6sOACJUJyUEGN0qLPIQMZ3IMkE7eewufXGcyppaVKiVEeJRJ9yO2F8lTIqLqdxFtSbnyPBHHth/qFE/bAFxHjC6mtAhSLR3Itg1LKKG4NcxsukgnsZHE7+3vhn/hrm+mnfy/9sTwm2snylYPvpt9MWBmfM//AM//AEwoRRGqp+d/H0qHV1m5M7xtzY/jjDO9II6Govh+0jEkr7RH9sS6dQiFIt28t4x0GQp/DUhpJJ8IuYHYAA8ziTHiJzNqdJ0bLVzpq/H1U2GhWIPiB8JJ1XBn6j5mr1EoMaVSoxsSEVQZIEgAxY7cj5Y5uvPwafiZvDIEmNIF4H3YkdsMdGZfi/ErPraoSWLGWBPkOJ/HGF8YLFuvoSBNm5fp03f4ekafiSGdmgKLRBEGbm2/bFGmGUCmtQ1QkSakR6TG3zOFen1/8MSVgyRpmN+x577XnC9fOaV00jTWGkgrIYci1l/v74bLhYYxkLbMq6NxDk9w2TdqdioYnZkB8XmdxI74LnyCI1BByTsBwTcY8pZ4NSNVU0qT5QYOmQeRJOPOqIKivTaY+zbfebcTz7404XHoFWO6Mqjj0ipO6ileg32qJp1CxgOt4PkRPhttBvgOXplGNVy2uoRTAOwUECY4jj274DmunfBq0RQmmCyO0kkldixMQIGoR3xZrtTLK7K0a2FPSAXP9UzBB3PptjC6lfsHzMTIe+5z3VOlt8QgHUp3JuSCJ7eox7lsx/yg9RiHFpN4Eb8gRGLnUqAeyEqCPFBhwQYCm8Akbnt6zhB+l5elBBBqQdmJ9YAP44VclDs/iKGI6nSdPpfDpkNpvtJAI5k3ut98eVFQK3xJcCNKszTefvGbHCfTcyalH/l6UAIEsSxiTdiLTb02xvM5+ktBaRKrVZNSqQJAkg+4M+o98KoPKiJ3KtTm6mbKGtSWnoZ6oCAXgWm54i/uca6flNdUhwA0Rb1tbtbHlDLTWWo02Mbk6fFI9gRHlON9VZkrllUhrKrgSO4VuY/Yg40MnjqKQR2I5Q6tSpk0iDqEqQBBK7GDsbemJj9OqU2WpRqAqWJtxbY/1DuODhbM1qlRy2gAryBwe/fFuh0sq8SY3PadgTziZYL1Oqo70ltKabanLM4FuSbH0AwfM9HYsK5BYCxgydPpxgPVdK0C7toYEAHuSeO9pwXKtU0lqdRiAAdKseffAxMzd9Rgwqj1OS6rnXWqQmhWR/CwudPAIHP9xiX1bMZitVlqnJgKR4QTMAi8DiTbHRfxH0+WWqyxNQCoApBKzYkSQWjkbyMKfxN0taVdvhGKcyjDiRJVe8GfaMejjKGqEqnHwILpebqCmaFiVHjZvE0tNhPAFpvhuhXlWWoi6xMFRAJ3HoT+eE+m1NLkQWZhNtyRsI/PH3wqrfEOm/MAgrxcbxtcYtUm2MljXUFXrJVggMrr3FoNrEWJGG+lwpSxuNjfyPnH54FRyJIAKswJ3AJueLfnhugqpcrDQV1TMAeTDicEKJT0hVRjq9IE0wtmvB5twcAoVPiKQ8Bhvx6GOMepSEncAAwSJJ534MnbjB8qoAIA8It6TcXne2O4iEYwBR8QYyrBFWSwU7TJ/wBtsMCiSNJmw27jG8vTQkHgX5knmIifphmopYSCdt8OBHBAiaUY2kAXIvHr64JUzDBhGmeQ36HafOcFqUTYEi8QSRp+o9MAepUJnUObG0379/lg1GufMyqxIJBndQCAd9u2Cfzdb+v8cZVIbUfCoMCCC1+Z5xv+Ubz/APj/AHwJxM4LOIVc1GIUbIkSSOLbDvJ+uMZPrTLV1sCUiNPYGL+ZtgVWmXYsTqPnc4GMreIviZUHudOi6RmFZ2ispXxFUVfFB8RuRIudgcCzVdQUErSfULwT4ZkGwvex98RsrqptqRoYAifURtG/OC5Rnp1abTLKRpEgwDsBqBA3t23xI4t3EKbud8mWRKIku5A0hnO8XsosF3853JOM0MgKbTUUuIkARF+T3/flCORzxRar1lBJFlVpudhPFhjPU83VqUKQNOGFjf7SxCxyLTbynHnMjcrJkDcvUXFZDqBAUwqn0mwHvhWnnkphqNRgjWI7kDYjniDglGFShTHhIVQG7kACB5fjtiH/ABL8OpmZfVpQBXCifs+KPckjBRBuJVmPpTqrpes4Ork2teLflhnN1nprKLI5bSCw81B+954Dkcojs7MulEUmTvAg7DbBv5lmQ0dRhk8LfeBtEML7XvO0c4ouVuBx1dmaFynj6YHcW6Npem1QGoLhSJvuSTvE+djc4L0jpZNcuWLKQQARe8EFjO9jj5WXL0gGLJT0yBfU9QkDSFiSd7j6RhzM3AWgzBnVWgyLMPvDi0WMYgLBNj+DJEijNdOz4VcwgMXJQn7JBkmPYHCfXyrVqJEEhCY5kkRf0k+84FTyxQ/BaSquFHYsEViL8S479sIZzMGlmFtJDAafQDnjgfTDgMRqTA3K3TsvLQNz4iD38+37748z1I69dR1psGsimfiIDa0xPnx5YNm6tPR8YQwcnYkHUAQAINmkab4V6TRqtRVqoRRTckcHRGkgg7eV+2GbIzqLFVKZHL19amFAp1gzK2h5UndIBlWB9Jkb/LBlovUqs+1QrK+KJXgdiBcxG5w/0vNIKU1fGgLEErYAN9mPvRwd4xKrdSV6tRgFimfCy8AqGXwm/cEfLCqbJodSdGZ6q1Uj4BIkgEg/1ibiNpHHnh/I1CNOyGp4VE/eX8RE/wC+Ecz1TVTWqlMEmWMkgqyi4jkGDiM/xHqB5lyxhRMC4FgSQB5YsmNmG9R1Uzocnna1Q1aLaS9IjcG/Mgzf19N8Br9SFag9J1KOh1Ai6tG4MCZg/TA0paKhcFg5ckmZ339r/QdsYy9KmpYrMRzNp3iTtuNjcmMaMeNQeR/EoqgbiZyQDQwJB3jgkTb0I/c4eyraF8I4DajPh7XOxF/njULpiIg7CeARsd/rt530EsSRYwIG543G+/8AfFfUHLUY5BCZXMAVRBK7SoYjV5tO7Dvg7U/iHxAGLzc22BtMmw74XzFTxCRaIWwgbRpIFt9vUY9/mV2nw6RMTvIv25HfeOMc2QCoGyDxGf5NR4fiATt4W7TvpiPfjC6A3iI/D97YDVeWBJEAnSOLi0Dmwxiq53UgHYEc8/LbCnLF9QxmiZYG4jt2G3a+23cY2ravF8XcX4I5uPMXwjTZgTefFFtrAR+vywPK6ptM/l+g/XCDKbi8zK652qU0fEWohMy17WtqtpnyHMYVztyPBoK7i8fMzHrOFviRftFzxtBF97/TAHqGNENbvN/UkzPl6HFPWjh4/UQ+XOoyO3bnAXqCTt8z+uFGr99z+v0H788C+J+4H6YQ5jAchnP0cv4oEt3AP54bqZMi5K+YBBj8h/fHn8yTFrHZV8u+CqrAg7HgEfUz599zjQOpcQiUwVKqpM7myj5gCcZfp6IpLXjgGBv3P2vpiixYk6Vgi8FZjsZt+HfCmay0mauqoOw2+gt74bU7cnZjqLu0JBXSVCiAotuO5GLn8H5gu7isRKoNE/aAUEkBQfFaxMHiTa86nlxqsrR8o/fvg/xKtKrqpyngVTb7pAJXbkqeNxjPkxhlIEVlFVOiq9IdjCuoa8KWne5PsSYAnnC2ZytMl2K/aMM8W1SJMm0xz+mKSVBUpKxRmLUiQrQNRRl0z5Tv3HriTnurt8B0qKJEQUHiYFTIIFoB2NrjHnqjE1IV4hchRpKahNQu1SAyAydM2tuJvfsbYpqVNRgQEaAEWRJB3A7bA45jN9UWhUpslJGY0wWcg6lJJBmN9trbDFJnWoiPU0iq7kSdy17DsIUEDi2GbE9htiEgr7hGs31OqrMjMqimf+WSDOxDbSpg2xRy2VFN1ckh6oAH9MDxfv8AvjjeoZ+qK1Twq5suppL6QIMHk8T5DfG6eezDVaarUPwyAFDASoVdgYttOHbAzbJgKE7nW9T6pTWoaWhVZXDE6SQ2o8xGlohvb0mTlMrSqVWqaqkQUliJciZYMLwdTDg+lsAzASm4Zqg1bEtc2F5PABkAd4HljOUzKgKQxIuTI+zebjvMWwnAr1BWrjnVcjUamSqy+rUTI+yGtYfaIW0+Xngo6qxUEhV17qRIUghZBF7giQex88I5/MK7j7JA+yQbXC8d5nz+eAGpEkKBq+8Jkxe8kk7i+H9Lkvug8R3NBWoCmWVVJ1gKLNxaOP7YRbJIUabEgar8AQJj+9iTacBzDMANWyj3iZ559O/yFT1NY3nc9lF+RYe+wxZTWjH5xvLAIrAHVFzxH7GHMuZdYAW9id7x2uBOEKTQb7XEnm3b2wfLgzTPGqDO9tJt5/2xxeJyJm3k6j22HcbnfyHOwPoMfUFB03lu5PtEbERBk/lgq1ZWoTEzYehm/lcfPzwIIbSRMlQOBY38+2E5NUIhVqkLIEtt+xzv8o7YC2Y0knaxH6/KMN1aelUgEkCWG4JLWE/Q22GFalKDcwd9pubkmTB+fOFgMIaqwsze/tePTv8ALBKpBVQTFgLbnaCbSYEXwPSpWeRvIieODbnyvxjNVJCmwte3vH+kCB+uBy3qddQtVBtI2vz4treW59vkKiTq1BYUAmTuLevpgPJF9+0AmY/vGPUzBNjMb+vr9IjacG50OGEdgTtHyv7nG6BAJiQYIn3i07fphSlXO5EWmOZgW7b4KtSQfQwPLkYHKoLqDepuBP6H14wsqgtDMb9vkPKMHr0pJiDG88b3tFt/2cC03EX7evv7nBBMNwRIG97jfcEe9+cZevUk/qcF+CZAUHeJO5/T09cZfLmTb8f0x24YnlsuVKwrguYprpLFyf6bDUL/AIb2xQo0gr6HJV4gqEKlQQODeOfQ+eG6fW4enUKXDK5GokEqYETZBvIg7zuL+ZLrTaQp1c+JGFMjw0wuiEK04WmUsD4aj9zPoiaono0wBqBPLMBN432j2GGOmI5DQxffvAgFpgwNgSTYATikP4lSmwYUR4kZvDCyQRFoIAVUFMLfwzJuRjZ6jGhivhRrAHdIpoU/yqdLG1vG1pkkExS1CJ/yroDKEQASSgAJ0g82G4iTcMO4xmkFI0SLX8rc9hsPS+KFLrhLazTW4eTNyxiGiIsqU09FnmMbo9dsspq8KE6m+000/EbfaOhr/wCc73mbsIrGSKGWCterJ3OloIkhfCQu53+ePVyVT4pVUed9Ok6j2Pn+WKNPr8kjQYYEfbgkllAZiFEkc/1XncyD/ibeM1JbXTg6WCkAFXlTpImQu4I3FrYQEXcXkAYtTyhYkOpLIPEGEmBdh5Ec8b4ymRSodIvJJEXkt5Abz+GKi9bCgKKQIAiGIKwAVIACiNWoav6o42wOv1gsAmg6SDrPxJdgwendtF2GqxIiFUQYx3qCdyuI1MuFKlwVYG0ggsA19+NXOA1VEKNIIM+hieTveJxYyedFOnTRUJVUkBnkgmq3iB0QHF4MWt6YL/xEOp/w4lRJ1eJosQ50+NXglxbUY2wjNfmcR9znqtE/DDhTyrFRa5DXJ2vN/THxyg8Xr39z3vi3n841QmPCjmCtid9JOoKDyB6CLRGJbAk6QYFzf97yMKzaiEwAUTMXBn6D8gPlj6igAG2+3N/xmMNUcwEYsRq0gAAxBmd//j++FqlfWdcRtYbXED5frifLcWDrQZJ+yLQfWb/vtgdWxZZtMTa4B/e2D1UHiUbEAz5zG20YzUQMx52F+9iDz3/3wfqdPcoIYknYxA9O/OGMopbbeQd9uPSP0OF6diY27E97flgtMgMsTFz+APrvgXFjWVpXQMDvzvMyeJ4H9sGq1LG3ikHaYkEj3uLYDQrEzJNuxiRpB4/dzg1OCXa8gx5fvfHE6jQrXva3HkIk+tx7YUqAEE8nyJk35+WDim0aSR4hH0n9PrjOcAWLaiV1X2EeXeZvheM6KZvwLbeYMEyTPftOBkmCfKDbczPpxbG6YOpgCLt2sLRIHf8AHAa1Xm9pi/n3wtfE6HUBWFuZvx54wlHUSBtsLwO5M+34Yxl0mb7z24APIPkMGyrQCwA1RAPaYBgcb+/0wZwE9p0APFYCdydIiBFzHcD2xnVGqWkAaj2i23b08sYVpmO/IsJBMxybcnDejQAIBNmJIneYF+xAwQIKivxCo3Ez4vLsP825n5cY8y63Pzt+A98bzGXEa/6uL2PN578749KkQZuwn0Hb6/vkwwYLavCfDHB+1I5O53mPLC/wD/UPp+mDUxM3NjHsZ2PeZ+mApsN/mccJ0//Z",
+    "image_url": "./static/images/plant-json-imgs/img-61.webp",
     "id": "061",
     "category": "Shrub"
   },
@@ -683,7 +683,7 @@
     "watering": "Regular watering",
     "light": "Full sun to light shade",
     "price": 10.5,
-    "image_url": "https://img.freepik.com/free-photo/vertical-closeup-shot-ripe-firethorn-tree-branch_181624-45475.jpg?w=740&t=st=1691671238~exp=1691671838~hmac=7798ad7eef516640833a5060f077aac959439e7efa596406ec0c9303d5b92a71",
+    "image_url": "./static/images/plant-json-imgs/img-62.webp",
     "id": "062",
     "category": "Shrub"
   },
@@ -694,7 +694,7 @@
     "watering": "Regular watering",
     "light": "Full sun to partial shade",
     "price": 16.25,
-    "image_url": "https://img.freepik.com/free-photo/houseplant-natural-floral-foliage-decoration_53876-165294.jpg?w=996&t=st=1691671302~exp=1691671902~hmac=2a8cff2c5db55b431bb06c4f19c1c4778dc4762e0e6f38fd08cd13167c8bf823",
+    "image_url": "./static/images/plant-json-imgs/img-63.webp",
     "id": "063",
     "category": "Shrub"
   },
@@ -705,7 +705,7 @@
     "watering": "Regular watering",
     "light": "Partial shade to full sun",
     "price": 18.75,
-    "image_url": "https://img.freepik.com/free-photo/beautiful-pink-oleander-blossomed-flowers_181624-56297.jpg?w=360&t=st=1691671343~exp=1691671943~hmac=5bc944ebc8d0ca78f39011ab9465627a8ce96363a408247d205f12d0b7cbab65",
+    "image_url": "./static/images/plant-json-imgs/img-64.webp",
     "id": "064",
     "category": "Shrub"
   },
@@ -716,7 +716,7 @@
     "watering": "Regular watering",
     "light": "Full sun",
     "price": 13.99,
-    "image_url": "https://img.freepik.com/free-photo/calathea-ornata-sanderiana-orange-flowerpot_53876-65619.jpg?w=360&t=st=1691671378~exp=1691671978~hmac=2b58680277ca855bb42c9f1f2ace2494042ca219c4d680989609fc4aaa1c1439",
+    "image_url": "./static/images/plant-json-imgs/img-65.webp",
     "id": "065",
     "category": "Shrub"
   },
@@ -727,7 +727,7 @@
     "watering": "Regular watering",
     "light": "Full sun to light shade",
     "price": 12.5,
-    "image_url": "https://img.freepik.com/free-photo/carnivorous-tropical-pitcher-plant-nepenthes_23-2148058768.jpg?w=360&t=st=1691671430~exp=1691672030~hmac=4771f9797c2bd2a64bebc4c3b46219a7e5c67d27252e7070e125ed7b17429213",
+    "image_url": "./static/images/plant-json-imgs/img-66.webp",
     "id": "066",
     "category": "Shrub"
   },
@@ -738,7 +738,7 @@
     "watering": "Regular watering",
     "light": "Partial shade to full sun",
     "price": 19.25,
-    "image_url": "https://www.gardenia.net/storage/app/public/uploads/images/detail/jpOaQg7qzGtSatkeuFQVifnXPmZsPdkTpE9ubNH6.webp",
+    "image_url": "./static/images/plant-json-imgs/img-67.webp",
     "id": "067",
     "category": "Shrub"
   },
@@ -749,7 +749,7 @@
     "watering": "Regular watering",
     "light": "Full sun to partial shade",
     "price": 17.5,
-    "image_url": "https://img.freepik.com/premium-photo/beautiful-flower-gypsophila-paniculata-orange-pot-ground_51012-505.jpg?w=1060",
+    "image_url": "./static/images/plant-json-imgs/img-68.webp",
     "id": "068",
     "category": "Shrub"
   },
@@ -760,7 +760,7 @@
     "watering": "Regular watering",
     "light": "Full sun to partial shade",
     "price": 15.99,
-    "image_url": "https://img.freepik.com/premium-photo/top-view-beautiful-viburnum-carlesii-flowers_665346-22796.jpg?w=360",
+    "image_url": "./static/images/plant-json-imgs/img-69.webp",
     "id": "069",
     "category": "Shrub"
   },
@@ -771,7 +771,7 @@
     "watering": "Regular watering",
     "light": "Full sun to partial shade",
     "price": 11.75,
-    "image_url": "https://img.freepik.com/free-photo/acacia-dealbata-branches-against-sky_1398-420.jpg?w=1060&t=st=1691671701~exp=1691672301~hmac=8991e2a1836c83afe7f03965b1d8a2eeaf13a7c945f452f68534ae26fab1635a",
+    "image_url": "./static/images/plant-json-imgs/img-70.webp",
     "id": "070",
     "category": "Shrub"
   },
@@ -783,7 +783,7 @@
     "watering": "Allow soil to dry between waterings",
     "light": "Bright sunlight",
     "price": 12.99,
-    "image_url": "https://img.freepik.com/free-photo/collection-various-cactus-succulent-plants-pots_23-2148058906.jpg?w=360&t=st=1691671782~exp=1691672382~hmac=d681fd085dc055d52e75a058389fefec82168c69e25428383cb5121239ff5b5c",
+    "image_url": "./static/images/plant-json-imgs/img-71.webp",
     "id": "071",
     "category": "Flowering Succulent"
   },
@@ -794,7 +794,7 @@
     "watering": "Allow soil to dry between waterings",
     "light": "Bright sunlight",
     "price": 10.75,
-    "image_url": "https://img.freepik.com/premium-photo/small-trees-white-pots-decoration-home-garden-minimal-plant-tree-ficus-annulata-white-pot-plant-table_73523-6998.jpg?w=360",
+    "image_url": "./static/images/plant-json-imgs/img-72.webp",
     "id": "072",
     "category": "Flowering Succulent"
   },
@@ -805,7 +805,7 @@
     "watering": "Allow soil to dry between waterings",
     "light": "Bright sunlight",
     "price": 9.99,
-    "image_url": "https://img.freepik.com/free-photo/beautiful-red-poinsettia-arrangement_23-2149138725.jpg?w=360&t=st=1691671942~exp=1691672542~hmac=62e327899696e9c152b7b823c844685c2368ac05c7f6d39a64285cbff01b3a2c",
+    "image_url": "./static/images/plant-json-imgs/img-73.webp",
     "id": "073",
     "category": "Flowering Succulent"
   },
@@ -816,7 +816,7 @@
     "watering": "Allow soil to dry between waterings",
     "light": "Bright indirect light",
     "price": 11.5,
-    "image_url": "https://img.freepik.com/free-photo/selective-focus-shot-dewdrops-camellia-sinensis-used-make-tea_181624-8428.jpg?w=1060&t=st=1691672180~exp=1691672780~hmac=e84bc66586572cca72bb23b13c1e2cccb5fb9397deeb93af1f3c5223a882c6a2",
+    "image_url": "./static/images/plant-json-imgs/img-74.webp",
     "id": "074",
     "category": "Flowering Succulent"
   },
@@ -827,7 +827,7 @@
     "watering": "Allow soil to dry between waterings",
     "light": "Bright sunlight",
     "price": 8.25,
-    "image_url": "https://img.freepik.com/free-photo/tropical-beautiful-flowers-bloom_23-2148058947.jpg?w=1060&t=st=1691672233~exp=1691672833~hmac=9a89ccf8beda59dc7c4681e38d6b8de04ec7fa2032a32c4983ebda56a94099e6",
+    "image_url": "./static/images/plant-json-imgs/img-75.webp",
     "id": "075",
     "category": "Flowering Succulent"
   },
@@ -838,7 +838,7 @@
     "watering": "Allow soil to dry between waterings",
     "light": "Bright sunlight",
     "price": 9.75,
-    "image_url": "https://img.freepik.com/free-photo/indoor-plant-textures-details_23-2149072367.jpg?w=1060&t=st=1691672285~exp=1691672885~hmac=395c9fabc278163a89edfbd93d8f142098bea5d1151ce9cc5ec474bf05c981eb",
+    "image_url": "./static/images/plant-json-imgs/img-76.webp",
     "id": "076",
     "category": "Flowering Succulent"
   },
@@ -849,7 +849,7 @@
     "watering": "Allow soil to dry between waterings",
     "light": "Bright sunlight",
     "price": 7.5,
-    "image_url": "https://img.freepik.com/free-photo/tropical-beautiful-flowers-bloom_23-2148058947.jpg?w=1060&t=st=1691672369~exp=1691672969~hmac=a803bd23324340eeb404359efe94dd03eca607612c4780474ad7aa60ebdce805",
+    "image_url": "./static/images/plant-json-imgs/img-77.webp",
     "id": "077",
     "category": "Flowering Succulent"
   },
@@ -860,7 +860,7 @@
     "watering": "Allow soil to dry between waterings",
     "light": "Bright sunlight",
     "price": 13.99,
-    "image_url": "https://img.freepik.com/free-photo/close-up-flowers-cactus_23-2147759064.jpg?w=740&t=st=1691672407~exp=1691673007~hmac=8ad9f637cf99091248593d57c57b91c9cbd4d061df0acf530a4cf09810b529fd",
+    "image_url": "./static/images/plant-json-imgs/img-78.webp",
     "id": "078",
     "category": "Flowering Succulent"
   },
@@ -871,7 +871,7 @@
     "watering": "Allow soil to dry between waterings",
     "light": "Bright to indirect light",
     "price": 6.99,
-    "image_url": "data:image/jpeg;base64,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",
+    "image_url": "./static/images/plant-json-imgs/img-79.webp",
     "id": "079",
     "category": "Flowering Succulent"
   },
@@ -882,7 +882,7 @@
     "watering": "Allow soil to dry between waterings",
     "light": "Bright sunlight",
     "price": 12.25,
-    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3_CNLFM1VdOQLpXOfYTIBz5eJch0ASZQBlQ&usqp=CAU",
+    "image_url": "./static/images/plant-json-imgs/img-80.webp",
     "id": "080",
     "category": "Flowering Succulent"
   }
