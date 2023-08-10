@@ -223,11 +223,13 @@ html::-webkit-scrollbar {
    color: var(--primary-color) !important;
 }
 .about .text h6{
-   font-size: 1.7rem;
+   font-size: 1.5rem;
    font-family: var(--text-font);
+   line-height: 2rem;
 }
 .about .text .about-list p{
    font-size: 1.5rem;
+   font-family: var(--text-font);
 }
 .about .text .about-list i{
    color: var(--primary-color);
