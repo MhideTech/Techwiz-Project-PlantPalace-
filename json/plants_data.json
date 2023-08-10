@@ -6,7 +6,7 @@
     "watering": "Every 2-6 weeks",
     "light": "Low to bright indirect light",
     "price": 25.99,
-    "image_url": "https://img.freepik.com/free-photo/snake-plant-white-pot_53876-95437.jpg?w=360&t=st=1691666240~exp=1691666840~hmac=3112d672c7990db9577abbf8efa5d9a3b7be43733dbcd2e0ff68dfe776ce6b8c",
+    "image_url": "./static/images/plant-json-imgs/img-1.avif",
     "id": "001",
     "category": "Indoor"
   },
