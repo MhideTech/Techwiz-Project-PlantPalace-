@@ -1,4 +1,5 @@
-const nav = document.querySelector("nav");
+const nav = document.querySelector(".navbar");
+console.log(nav)
 document.addEventListener("scroll", function () {
 	if (window.scrollY > 174) {
 		nav.style.backgroundColor = "rgb(0, 0, 0)";

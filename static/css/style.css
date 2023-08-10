@@ -52,28 +52,27 @@ html::-webkit-scrollbar {
 	opacity: 0;
 }
 
-nav {
+.navbar {
   height: 13vh;
   width: 90%;
   border-bottom: 1px solid white;
   transition: 0.3s;
-  position: sticky;
-  top: 10px;
+  background-color: rgba(0,0,0,0) !important;
 }
-.navbar-brand,
-.offcanvas-title {
+.navbar-brand{
   font-family: var(--head-font);
   font-size: 30px !important;
-  color: white;
+  color: white !important;
 }
 .dropdown .dropdown-menu {
   max-height: 300px;
 }
-.navbar .offcanvas-body ul li a{
+.navbar  ul li a{
    color: var(--color-white);
    font-size: 2.5rem;
    font-family: var(--head-font);
    position: relative;
+   margin: 0px 15px;
 }
 .navbar .cart .cart-btn{
    color: var(--color-white);
