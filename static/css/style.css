@@ -33,6 +33,9 @@ html {
 	font-size: 1.3rem;
    padding: 1.3rem 1.8rem;
 }
+h1{
+   font-family: var(--head-font);
+}
 
 /* Scroll-bar Stylings */
 html::-webkit-scrollbar-thumb {
@@ -453,6 +456,34 @@ nav {
 }
 .instagram-shop .img ul .insta-6{
    background-image: url(../images/insta-6.jpg);
+}
+
+
+
+.keep-in-touch h1, .contact-us h1{
+   font-size: 3rem;
+}
+.contact-us input{
+   width: 100%;
+   height: 50px;
+   padding: 0px 0px 0px 20px;
+   background-color: rgba(0, 0, 0, 0.1);
+   border: none;
+   outline: none;
+   font-size: 1.6rem;
+}
+.contact-us input:focus, .contact-us textarea:focus{
+   border: 1px solid var(--primary-color);
+}
+.contact-us textarea{
+   width: 100%;
+   height: 200px;
+   margin: 20px 0px;
+   padding: 10px 0px 0px 20px;
+   background-color: rgba(0, 0, 0, 0.1);
+   border: none;
+   outline: none;
+   font-size: 1.6rem;
 }
 
 @media only screen and (max-width: 991px) {
