@@ -57,7 +57,7 @@ html::-webkit-scrollbar {
   width: 90%;
   border-bottom: 1px solid white;
   transition: 0.3s;
-  background-color: rgba(0,0,0,0) !important;
+  background-color: rgba(0,0,0,0) ;
 }
 .navbar-brand{
   font-family: var(--head-font);
@@ -370,14 +370,21 @@ footer .copyright{
    font-size: 1.5rem;
 }
 
-
-.section-landing{
-   width: 100%;
-   height: 150px;
-   background-color: rgba(0, 0, 0, 0.1);
-   display: flex;
-   justify-content: center;
-   align-items: center;
+.section-landing {
+	width: 100%;
+	height: 30rem;
+	background-image: linear-gradient(
+			45deg,
+			rgba(0, 0, 0, 0.6),
+			rgba(0, 0, 0, 0.6)
+		),
+		url(../images/category-head.jpg);
+	background-position: center;
+	background-repeat: repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 .section-landing h1{
    font-size: 4rem;
@@ -389,7 +396,7 @@ footer .copyright{
    line-height: 35px;
 }
 .section-landing p span a{
-   color: rgba(0, 0, 0, 0.6) !important;
+   color: rgba(255, 255, 255, 0.9) !important;
    margin: 0px 10px 0px 0px;
 }
 .about-us .img{

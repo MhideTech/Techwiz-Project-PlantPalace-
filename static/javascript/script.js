@@ -2,10 +2,10 @@ const nav = document.querySelector(".navbar");
 console.log(nav)
 document.addEventListener("scroll", function () {
 	if (window.scrollY > 174) {
-		nav.style.backgroundColor = "rgb(0, 0, 0)";
+		nav.style.backgroundColor = "black";
 		nav.style.width = "100%";
 		nav.style.padding = "10px 20px";
-		nav.style.backdropFilter = "blur(10px)";
+		// nav.style.backdropFilter = "blur(10px)";
 		nav.style.height = "fit-content";
 		nav.style.borderBottom = "0px solid white";
 	} else {
