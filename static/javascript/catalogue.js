@@ -4,6 +4,7 @@ const overlay = document.querySelector(`.overlay`);
 const filterContainer = document.querySelector(".filter");
 const plantContainer = document.querySelector(".plant-cards");
 const inputSearch = document.querySelector(`.search-plants`);
+const modalContent = document.querySelector(".modal-content");
 let plantDataArr;
 const openModal = function () {
 	modal.classList.remove(`hidden`);
@@ -48,9 +49,10 @@ const createPlantCard = function ({
 	name: plantName,
 	price: plantPrice,
 	category: plantCategory,
+	id: plantId,
 }) {
 	const plantCard = `				
-    <div class="plant-card">
+    <div class="plant-card" data-id="${plantId}">
     <div class="img-cont">
         <img src="${img}" alt="${plantName}" />
     </div>
@@ -66,10 +68,10 @@ const createPlantCard = function ({
 };
 
 const handlePagination = function (page, plantData, itemsPerPage) {
-    const buttons = document.querySelectorAll(`#pagination button`);
+	const buttons = document.querySelectorAll(`#pagination button`);
 	const startIndex = (page - 1) * itemsPerPage;
-    buttons.forEach(btn => btn.classList.remove(`active`));
-    buttons[page - 1].classList.add(`active`);
+	buttons.forEach((btn) => btn.classList.remove(`active`));
+	buttons[page - 1].classList.add(`active`);
 	const endIndex = startIndex + itemsPerPage;
 	const plantArray = plantData.slice(startIndex, endIndex);
 	renderPlantData(plantArray);
@@ -106,10 +108,10 @@ const initPaginationCtrl = function (itemsPerPage, plantData) {
 	for (let i = 1; i <= totalPages; i++) {
 		const pageButton = document.createElement("button");
 		pageButton.textContent = i;
-        pageButton.classList.add(`active`);
+		pageButton.classList.add(`active`);
 		pageButton.addEventListener("click", function () {
 			handlePagination(i, plantData, itemsPerPage);
-            pageButton.classList.add(`active`);
+			pageButton.classList.add(`active`);
 		});
 		paginationContainer.appendChild(pageButton);
 	}
@@ -164,14 +166,55 @@ const searchNRender = function (query, data) {
 };
 
 const handleSearch = function () {
-    // console.log(inputSearch.value.length);
-    if(inputSearch.value.length === 0){
-        renderAll();
-        return
-    }
+	// console.log(inputSearch.value.length);
+	if (inputSearch.value.length === 0) {
+		renderAll();
+		return;
+	}
 	searchNRender(inputSearch.value, plantDataArr);
 };
 
+const renderObjModal = function ({
+	image_url: img,
+	name: plantName,
+	price: plantPrice,
+	category: plantCategory,
+	id: plantId,
+	scientificName: sname,
+	origin: origin,
+	watering: watering,
+	light: light,
+}) {
+	const markup = `
+	<div class="modal-content">
+	<div class="image-cont">
+		<img src="${img}" alt="" />
+	</div>
+	<div class="description">
+		<p>Name : ${plantName}</p>
+		<p>Scientific Name : ${sname}</p>
+		<p>Origin : ${origin}</p>
+		<p>Watering Requirments : ${watering}</p>
+		<p>Light : ${light}</p>
+		<p>Price: ${plantPrice}</p>
+		<p> Category : ${plantCategory} </p>
+		<button class="add-to-cart" data-id="${plantId}" >Add To Cart</button>
+	</div>
+</div>`;
+
+	modalContent.innerHTML = markup;
+};
+
+const moreInfo = function (e) {
+	if (!e.target.classList.contains("more-info")) return;
+	const element = e.target.closest(".more-info");
+	const id = e.target.closest(".plant-card").dataset.id;
+	const obj = plantDataArr.find((data) => data.id === id);
+	renderObjModal(obj);
+	openModal();
+};
+
+plantContainer.addEventListener("click", moreInfo);
 renderAll();
 filterContainer.addEventListener("click", handleSort);
 filterContainer.addEventListener(`click`, handleFilter);
