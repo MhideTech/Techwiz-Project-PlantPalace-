@@ -1,26 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600,700&family=Saira+Semi+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Saira+Semi+Condensed:wght@700&display=swap');
 
 :root {
   --head-font: 'Saira Semi Condensed', sans-serif;
   --text-font: 'Quicksand', sans-serif;
   --primary-color: #006400;
-  --secondary-color: rgb(112, 224, 0);
+  --secondary-color: #70e000;
   --color-white: #fff;
 }
 
 /* Universal Stylings */
 *, *::before, *::after{
-    margin: 0;
-    padding: 0;
-    text-decoration: none !important;
-    list-style: none !important;
-    box-sizing: inherit;
+   margin: 0;
+   padding: 0;
+   text-decoration: none !important;
+   list-style: none !important;
+   box-sizing: inherit;
+}
+*::selection{
+   background-color: black;
+   color: var(--color-white);
 }
 body{
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
 html {
 	font-size: 62.5%;
+}
+a{
+   display: inline-block;
+	margin: 3rem 1rem 0rem 0rem;
+	font-family: var(--head-font);
+	font-size: 1.3rem;
+   padding: 1.3rem 1.8rem;
 }
 
 /* Scroll-bar Stylings */
@@ -39,7 +50,6 @@ html::-webkit-scrollbar {
 }
 
 nav {
-  /* background-color: rgba(0, 0, 0, 0.455);  */
   height: 13vh;
   width: 90%;
   border-bottom: 1px solid white;
@@ -131,63 +141,144 @@ nav {
    border: 2px solid var(--primary-color);
 }
 
-.catalog .plant-img{
-   background-color: rgba(0, 0, 0, 0.3);
-   border-top-left-radius: 10px;
-   border-bottom-left-radius: 10px;
+.landing-page2{
+   width: 100%;
+   height: 100vh;
+   /* background-color: var(--primary-color); */
 }
-.catalog .plant-description{
-   background-color: rgb(255, 255, 255);
-   border-top-right-radius: 10px;
-   border-bottom-right-radius: 10px;
-   /* padding: 10px; */
-   box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.3);
+.landing-page2 .text{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: red;
 }
-.catalog .plant-description span{
-   font-weight: 700 !important;
+.landing-page2 .text .text-content h1{
+   font-size: 4.5rem;
+   font-family: var(--head-font);
 }
-.catalog .plant-description p{
+.landing-page2 .text .text-content p{
+   font-size: 2rem;
+   font-family: var(--text-font);
+   margin: 15px 0rem;
+}
+.landing-page2 .text .text-content a{
+   border: 2px solid var(--color-white);
+	color: white;
+}
+.landing-page2 .text .text-content a:hover {
+	color: var(--color-white);
+   background-color: var(--primary-color);
+   border: 2px solid var(--primary-color);
+}
+.about h1{
+   color: var(--primary-color) !important;
+}
+.about h6{
+   font-size: 2rem;
+   font-family: var(--text-font);
+}
+.about a{
+   background-color: var(--primary-color);
+   color: var(--color-white);
+}
+.offer{
+   background-color: var(--primary-color);
+}
+.offer p, .about p, .products p{
+   font-size: 2.2rem;
+   font-family: var(--text-font);
+}
+.offer h1, .about h1, .products h1{
+   font-size: 3rem;
+   color: var(--color-white);
+   font-family: var(--head-font);
+}
+.offer .offer-product .icon{
+   width: 60px;
+   height: 60px;
+   background-color: var(--color-white);
+   border-radius: 8px;   
+}
+.offer .offer-product h1{
+   font-size: 2.5rem;
+   margin: 20px 0px;
+   font-family: var(--head-font);
+}
+.offer .offer-product p{
    font-size: 1.5rem;
    font-family: var(--text-font);
-   margin: 0px 0px 0px 10px;
 }
 
-.plant-description{
-   height: 400px;
+.products .active-product{
+   width: 430px;
+   height: 300px;
+   background-color: var(--color-white);
+   border-radius: 10px;
+   padding: 10px;
    position: relative;
 }
-.plant-description img{
-   width: 100%;
-   height: 100%;
-   object-fit: cover;
-   object-position: center;
-   position: absolute;
-   left: 0;
-}
-.plant-description .info{
-   width: 80%;
+.products .active-product .product-img{
+   width: 100px;
    height: 100px;
-   background-color: rgba(0, 0, 0, 0.3);
-   backdrop-filter: blur(20px);
-   position: absolute;
-   color:white;
-   bottom: 0;
-   font-size: 2rem;
-   padding: 5px 20px;
-}
-
-.plant-description a{
    background-color: var(--primary-color);
-   padding: 5px 15px;
-   color: white;
-   border-radius: 15px;
-   display: inline-block;
-   font-size: 1.2rem;
-   right: 10px;
-   text-align: right;
+   border-radius: 10px;
+   position: absolute;
+   right: 15px;
+   top: 15px;
 }
-
-
+.products .active-product .product-name{
+   font-size: 3rem;
+   font-family: var(--head-font);
+   color: var(--primary-color);
+}
+.products .active-product .product-info p{
+   font-size: 1.5rem;
+   font-family: var(--text-font);
+}
+.products .active-product .product-info a{
+   margin: .5rem;
+   background-color: var(--primary-color);
+   border-radius: 10px;
+   color: var(--color-white);
+   padding: 1rem;
+}
+.products .product{
+   width: 350px;
+   height: 200px;
+   background-color: var(--color-white);
+   border-radius: 10px;
+   padding: 10px;
+   position: relative;
+   top: 80px;
+}
+.products .product .product-img{
+   width: 80px;
+   height: 80px;
+   background-color: var(--primary-color);
+   border-radius: 10px;
+   position: absolute;
+   right: 15px;
+   top: 15px;
+}
+.products .product .product-name{
+   font-size: 2rem;
+   font-family: var(--head-font);
+   color: var(--primary-color);
+}
+.products .product .product-info p{
+   font-size: 1.5rem;
+   font-family: var(--text-font);
+}
+.products .product .product-info a{
+   margin: .5rem;
+   background-color: var(--primary-color);
+   border-radius: 10px;
+   color: var(--color-white);
+   padding: .8rem 1rem;
+   font-size: .8rem;
+}
 
 .contact{
    width: 100%;
