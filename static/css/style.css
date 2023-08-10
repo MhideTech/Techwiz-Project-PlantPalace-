@@ -504,6 +504,10 @@ footer .copyright{
    outline: none;
    font-size: 1.6rem;
 }
+.contact-us .btn{
+   background-color: var(--primary-color);
+   color: var(--color-white);
+}
 .sitemap ul li{
    list-style-type: square !important;
    margin: 20px 20px !important;
