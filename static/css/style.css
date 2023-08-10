@@ -372,7 +372,7 @@ footer .copyright{
 }
 
 
-.about-landing{
+.section-landing{
    width: 100%;
    height: 150px;
    background-color: rgba(0, 0, 0, 0.1);
@@ -380,14 +380,18 @@ footer .copyright{
    justify-content: center;
    align-items: center;
 }
-.about-landing h1{
+.section-landing h1{
    font-size: 4rem;
    font-family: var(--head-font);
 }
-.about-landing p{
+.section-landing p{
    font-size: 1.5rem;
    font-family: var(--text-font);
    line-height: 35px;
+}
+.section-landing p span a{
+   color: rgba(0, 0, 0, 0.6) !important;
+   margin: 0px 10px 0px 0px;
 }
 .about-us .img{
    width: 80%;
@@ -508,6 +512,12 @@ footer .copyright{
 @media screen and (max-width: 767px) {
   .offcanvas {
     backdrop-filter: blur(10px) !important;
+  }
+  .instagram-shop .img ul li{
+   height: 80px !important;
+  }
+  .instagram-shop{
+   height: 200px;
   }
 }
 
