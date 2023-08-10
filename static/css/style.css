@@ -26,7 +26,7 @@ body{
 html {
 	font-size: 62.5%;
 }
-a{
+.btn{
    display: inline-block;
 	margin: 3rem 1rem 0rem 0rem;
 	font-family: var(--head-font);
@@ -152,7 +152,7 @@ nav {
    display: flex;
    justify-content: center;
    align-items: center;
-   /* background-color: red; */
+   position: relative;
 }
 .landing-page2 .text .text-content h1{
    font-size: 4.5rem;
@@ -172,6 +172,12 @@ nav {
    background-color: var(--primary-color);
    border: 2px solid var(--primary-color);
 }
+/* .landing-page2 .landing-footer{
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   overflow-x: hidden !important;
+} */
 
 .about .img .left-side{
    width: 300px;
@@ -216,6 +222,13 @@ nav {
 .about .text h6{
    font-size: 2rem;
    font-family: var(--text-font);
+}
+.about .text .about-list p{
+   font-size: 1.5rem;
+}
+.about .text .about-list i{
+   /* background-color: var(--primary-color); */
+   color: var(--primary-color);
 }
 .about .text a{
    background-color: var(--primary-color);
