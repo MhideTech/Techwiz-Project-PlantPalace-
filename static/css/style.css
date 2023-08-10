@@ -495,6 +495,15 @@ footer .copyright{
    outline: none;
    font-size: 1.6rem;
 }
+.sitemap ul li{
+   list-style-type: square !important;
+   margin: 20px 20px !important;
+}
+.sitemap ul li a{
+   font-size: 2rem;
+   font-family: var(--head-font);
+   color: #000;
+}
 
 @media only screen and (max-width: 991px) {
    svg {
