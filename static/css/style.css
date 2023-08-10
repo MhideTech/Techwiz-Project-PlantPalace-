@@ -336,33 +336,20 @@ nav {
 
 .contact{
    width: 100%;
-   background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/background.jpg);
 }
-.contact .time-list {
-	margin-top: 50px;
-	padding-left: 0;
+.contact h1{
+   color: var(--primary-color);
+   font-size: 3rem !important;
 }
-.contact .time-list li {
-	border-bottom: 1px solid #eee;
-	font-size: 1.5rem;
-	font-weight: 400;
-	color: white;
-	margin-bottom: 20px;
-	padding-bottom: 20px;
-	font-family: var(--text-font);
+.contact p{
+   font-size: 1.5rem;
+   font-family: var(--text-font);
 }
-.contact form{
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 30px 0px;
+.contact a {
+   background-color: var(--primary-color);
+   color: var(--color-white);
+   text-align: center;
 }
-.contact input, .contact textarea{
-    background-color: transparent !important;
-    border-bottom: 1px solid red;
-    border-top: 0px solid transparent;
-    border-right: 0px solid transparent;
-    border-left: 0px solid transparent;
-}
-
 
 
 
