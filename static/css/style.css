@@ -36,6 +36,9 @@ html {
 h1{
    font-family: var(--head-font);
 }
+.active{
+   color: var(--primary-color) !important;
+}
 
 /* Scroll-bar Stylings */
 html::-webkit-scrollbar-thumb {
@@ -93,6 +96,20 @@ html::-webkit-scrollbar {
 }
 .navbar .navbar-nav .nav-item .nav-link:hover::before{
    scale: 1;
+}
+.navbar-toggler-icon{
+   background-color: var(--color-white) !important;
+   font-size: 2rem;
+   padding: 2rem !important;
+}
+.navbar-toggler i{
+   color: var(--color-white);
+   font-size: 3rem;
+}
+.navbar-toggler i:focus, .navbar-toggler i:active{
+   border: none !important;
+   outline: none !important;
+
 }
 
 
