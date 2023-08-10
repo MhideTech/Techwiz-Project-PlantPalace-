@@ -1,0 +1,307 @@
+nav {
+	width: 100%;
+	height: 10vh;
+}
+
+header {
+	width: 100%;
+	height: 30rem;
+	background-image: linear-gradient(
+			45deg,
+			rgba(0, 0, 0, 0.6),
+			rgba(0, 0, 0, 0.6)
+		),
+		url(../images/category-head.jpg);
+	background-position: center;
+	background-repeat: repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	/* background-size: cover; */
+}
+
+header h1 {
+	color: white;
+	font-size: 5rem;
+}
+
+header input {
+	width: 80%;
+	margin-top: 1rem;
+	height: 5rem;
+	padding: 0.2rem 3rem;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	font-size: 2rem;
+}
+
+.filter {
+	width: 70%;
+	height: 8rem;
+	background-color: rgba(192, 192, 192, 0.402);
+	position: relative;
+	margin: 0 auto;
+	display: flex;
+	/* border-radius: 20px; */
+	padding: 0px 10rem;
+	align-items: center;
+	justify-content: center;
+}
+
+.filter .slide {
+	position: absolute;
+	top: 50%;
+	font-size: 4rem;
+	transform: translate(-50%, -50%);
+}
+
+.nextButton {
+	right: 0;
+}
+
+.prevButton {
+	gap: 10rem;
+	left: 2.5rem;
+}
+.filterButton {
+	width: 10rem;
+	height: 60%;
+	background-color: white;
+	/* margin: 10px; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	color: black;
+	font-size: 1.5rem;
+	padding: 1rem 5rem;
+	transition: 0.4s;
+	box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+	/* box-shadow: 0px 0px 10px 1px rgba(112, 224, 0, 0.187); */
+}
+.filterButton:hover {
+	background-color: black;
+	color: white;
+	transition: 0.4s;
+}
+.filterButton.sort {
+	position: relative;
+	text-decoration: none;
+}
+.filterButton.sort .drop-down {
+	width: 20rem;
+	height: fit-content;
+	background-color: white;
+	position: absolute;
+	left: -40%;
+	bottom: -350%;
+	box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+	display: none;
+	color: black;
+	padding: 01rem 0.7rem;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.filterButton.sort:hover .drop-down {
+	display: flex;
+}
+
+.sort-option {
+	display: block;
+	width: 100%;
+	height: fit-content;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	padding: 1rem 0.5rem;
+}
+.sort-option:hover {
+	background-color: black;
+	color: white;
+	transition: 0.3s;
+	padding: 1rem 0.7rem;
+}
+
+.plant-cards {
+	width: 100%;
+	height: fit-content;
+	display: flex;
+	align-items: center;
+	padding: 8rem;
+	gap: 5rem;
+	flex-wrap: wrap;
+	justify-content: center;
+	/* justify-content: center; */
+}
+
+.plant-card {
+	flex-basis: 320px;
+	height: fit-content;
+	background-color: rgb(240, 249, 230);
+	padding: 1rem 1rem;
+}
+
+.plant-card .img-cont {
+	width: 100%;
+	height: 50%;
+}
+
+.plant-card .img-cont img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.plant-card .content {
+	font-size: 1.7rem;
+	margin-top: 1.5rem;
+}
+
+.plant-card .content p {
+	margin-bottom: 2.5rem;
+}
+
+.plant-card .add-to-cart {
+	padding: 0.5rem 1rem;
+	border: none;
+	outline: none;
+	background-color: black;
+	color: white;
+}
+.more-info {
+	padding: 0.5rem 1rem;
+	border: none;
+	outline: none;
+	background-color: white;
+	color: black;
+	margin: 0 1rem;
+}
+
+.modalPlant {
+	position: fixed;
+	width: 80%;
+	height: fit-content;
+	background-color: white;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+    transition: .3s;
+}
+
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 1;
+	backdrop-filter: blur(5px);
+	top: 0;
+    transition: .3s;
+}
+
+.modal-close {
+	font-size: 5rem;
+	position: absolute;
+	right: 1rem;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	outline: none;
+    z-index: 3;
+}
+.modal-content {
+	display: flex;
+	gap: 10rem;
+	padding: 1rem 3rem;
+    width: 100%;
+    height: fit-content;
+    flex-direction: row;
+}
+
+.modal-content div {
+	width: 50%;
+	height: 100%;
+}
+
+.modalPlant .image-cont {
+	height: fit-content;
+}
+
+.modalPlant .image-cont img {
+	height: 100%;
+	width: 100%;
+	object-position: center;
+	object-fit: cover;
+}
+
+.modalPlant .description {
+	font-size: 2rem;
+	height: fit-content;
+	padding-top: 2rem;
+}
+
+.modalPlant .add-to-cart {
+	background-color: rgb(186, 255, 118);
+	border: none;
+	outline: none;
+	padding: 0.5rem 3rem;
+	color: white;
+	border: 1px solid white;
+}
+
+.modalPlant .add-to-cart:hover {
+	background-color: white;
+	color: rgb(186, 255, 118);
+	border: 1px solid black;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.pagination-cont {
+    position: relative;
+}
+
+.pagination-cont button {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.pagination-cont .next{
+    right: 30%;
+}
+
+#pagination{
+    width: 23%;
+    height: 7rem;
+    /* background-color: red; */
+    margin: 0 auto;
+    display: flex;
+    overflow-x:scroll;
+    gap: 2rem;
+    margin-top: 40px;
+}
+#pagination::-webkit-scrollbar{
+    width: 0px;
+}
+#pagination button{
+    display: flex;
+    padding: 10px 20px;
+    height: 80%;
+    cursor: pointer;
+    background-color: rgb(186, 255, 118);
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    outline: none;
+    border: none;
+}
+#pagination button.active{
+    background-color: black;
+    color: rgb(186, 255, 118);
+}
