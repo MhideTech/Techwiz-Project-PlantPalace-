@@ -5,7 +5,6 @@ document.addEventListener("scroll", function () {
 		nav.style.backgroundColor = "black";
 		nav.style.width = "100%";
 		nav.style.padding = "10px 20px";
-		// nav.style.backdropFilter = "blur(10px)";
 		nav.style.height = "fit-content";
 		nav.style.borderBottom = "0px solid white";
 	} else {
