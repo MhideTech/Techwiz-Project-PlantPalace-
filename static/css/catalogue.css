@@ -63,7 +63,6 @@
 	position: relative;
 	margin: 0 auto;
 	display: flex;
-	/* border-radius: 20px; */
 	padding: 0px 10rem;
 	align-items: center;
 	justify-content: center;
@@ -88,7 +87,6 @@
 	width: 10rem;
 	height: 60%;
 	background-color: white;
-	/* margin: 10px; */
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -98,7 +96,6 @@
 	padding: 1rem 5rem;
 	transition: 0.4s;
 	box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
-	/* box-shadow: 0px 0px 10px 1px rgba(112, 224, 0, 0.187); */
 }
 .filterButton:hover {
 	background-color: black;
@@ -152,14 +149,14 @@
 	gap: 5rem;
 	flex-wrap: wrap;
 	justify-content: center;
-	/* justify-content: center; */
 }
 
 .plant-card {
 	flex-basis: 320px;
-	height: fit-content;
-	background-color: rgb(240, 249, 230);
+	height: 500px;
+	background-color: rgba(0, 0, 0, 0.1);
 	padding: 1rem 1rem;
+	position: relative;
 }
 
 .plant-card .img-cont {
@@ -176,31 +173,44 @@
 .plant-card .content {
 	font-size: 1.7rem;
 	margin-top: 1.5rem;
+	position: relative; 
+}
+
+.plant-card .content .buttons{
+	position: absolute;
+	bottom: 10px;
+	left: 0px;
 }
 
 .plant-card .content p {
-	margin-bottom: 2.5rem;
+	margin-bottom: 1rem;
+	font-family: var(--text-font);
+	font-size: 1.2rem;
 }
 
 .plant-card .add-to-cart {
-	padding: 0.5rem 1rem;
+	padding: 0.5rem 0.7rem;
 	border: none;
 	outline: none;
-	background-color: black;
+	background-color: var(--primary-color);
 	color: white;
+	font-size: 1.3rem;
+	font-family: var(--head-font);
 }
-.more-info {
-	padding: 0.5rem 1rem;
+.plant-card .more-info{
+	padding: 0.5rem 0.7rem;
 	border: none;
 	outline: none;
 	background-color: white;
-	color: black;
-	margin: 0 1rem;
+	color: var(--primary-color);
+	font-size: 1.3rem;
+	font-family: var(--head-font);
+	margin: 0px 0px 0px 5px;
 }
 
 .modalPlant {
 	position: fixed;
-	width: 80%;
+	width: 70%;
 	height: fit-content;
 	background-color: white;
 	top: 50%;
@@ -222,7 +232,7 @@
 }
 
 .modal-close {
-	font-size: 5rem;
+	font-size: 3rem;
 	position: absolute;
 	right: 1rem;
 	top: 0;
@@ -257,24 +267,24 @@
 }
 
 .modalPlant .description {
-	font-size: 2rem;
 	height: fit-content;
 	padding-top: 2rem;
+	padding-left: 0rem;
+}
+.modalPlant .description p{
+	font-size: 1.3rem;
+	font-family: var(--text-font);
 }
 
 .modalPlant .add-to-cart {
-	background-color: rgb(186, 255, 118);
+	background-color: var(--primary-color);
 	border: none;
 	outline: none;
-	padding: 0.5rem 3rem;
-	color: white;
+	padding: 0.5rem 2rem;
+	color: var(--color-white);
 	border: 1px solid white;
-}
-
-.modalPlant .add-to-cart:hover {
-	background-color: white;
-	color: rgb(186, 255, 118);
-	border: 1px solid black;
+	font-family: var(--head-font);
+	font-size: 1.5rem;
 }
 
 .hidden{
@@ -298,7 +308,6 @@
 #pagination{
     width: 23%;
     height: 7rem;
-    /* background-color: red; */
     margin: 0 auto;
     display: flex;
     overflow-x:scroll;
