@@ -27,7 +27,7 @@ html{
         font-size:48%;
     }
     .filter{
-        width: 100%;
+        width: 100% !important;
         border-radius: 0;
     }
     .modalPlant{
