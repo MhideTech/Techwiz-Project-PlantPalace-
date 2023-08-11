@@ -317,7 +317,6 @@
     gap: 2rem;
     margin-top: 40px;
 	align-items: center;
-	/* justify-content: center; */
 }
 #pagination::-webkit-scrollbar{
     width: 1px;

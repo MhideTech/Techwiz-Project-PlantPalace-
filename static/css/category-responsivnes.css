@@ -63,7 +63,7 @@ html{
 
 @media screen and (max-width:576px){
     html{
-        font-size: 36.2%;
+        font-size: 40%;
     }
     .plant-card {
 	    flex-basis: 31rem;
@@ -76,7 +76,7 @@ html{
 
 @media screen and (max-width:425px){
     html{
-        font-size: 32%;
+        font-size: 36%;
     }
 
     .cart{
