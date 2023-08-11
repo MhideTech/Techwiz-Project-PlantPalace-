@@ -59,7 +59,7 @@
 }
 
 .filter {
-	width: 70%;
+	width: 70% !important;
 	height: 8rem;
 	background-color: rgba(192, 192, 192, 0.402);
 	position: relative;
