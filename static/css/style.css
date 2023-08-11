@@ -519,12 +519,15 @@ footer .copyright {
 	background-color: var(--primary-color);
 	color: var(--color-white);
 }
+.sitemap ul{
+	margin: 40px 0px 0px;
+}
 .sitemap ul li {
 	list-style-type: square !important;
 	margin: 20px 20px !important;
 }
 .sitemap ul li a {
-	font-size: 2rem;
+	font-size: 3rem;
 	font-family: var(--head-font);
 	color: #000;
 }
