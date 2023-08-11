@@ -36,6 +36,7 @@ html{
         gap: 2rem;
         width: fit-content;
     }
+    
 
     .modal-content div{
         width: 100%;
@@ -45,6 +46,9 @@ html{
 @media screen and (max-width:576px){
     html{
         font-size: 36.2%;
+    }
+    .plant-card {
+	    flex-basis: 28rem;
     }
 }
 

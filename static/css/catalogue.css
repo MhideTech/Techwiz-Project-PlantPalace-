@@ -145,14 +145,14 @@
 	height: fit-content;
 	display: flex;
 	align-items: center;
-	padding: 8rem;
+	padding: 8rem 4rem;
 	gap: 5rem;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
 .plant-card {
-	flex-basis: 24rem;
+	flex-basis: 25rem;
 	height: 35rem;
 	background-color: rgba(0, 0, 0, 0.1);
 	padding: 1rem 1rem;
