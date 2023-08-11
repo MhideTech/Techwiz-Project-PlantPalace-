@@ -27,7 +27,7 @@ html{
         font-size:48%;
     }
     .filter{
-        width: 94% !important;
+        width: 90% !important;
         border-radius: 0;
     }
     .modalPlant{
@@ -39,9 +39,6 @@ html{
         align-items: center;
         gap: 2rem;
         width: fit-content;
-    }
-    .plant-card .buttons{
-        margin-top: 100px !important;
     }
 
     .modal-content div{
