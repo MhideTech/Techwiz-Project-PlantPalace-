@@ -152,8 +152,8 @@
 }
 
 .plant-card {
-	flex-basis: 320px;
-	height: 500px;
+	flex-basis: 24rem;
+	height: 35rem;
 	background-color: rgba(0, 0, 0, 0.1);
 	padding: 1rem 1rem;
 	position: relative;
