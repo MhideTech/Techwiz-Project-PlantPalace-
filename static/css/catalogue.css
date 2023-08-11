@@ -68,6 +68,7 @@
 	padding: 0px 10rem;
 	align-items: center;
 	justify-content: center;
+	overflow-x: scroll !important;
 }
 
 .filter .slide {

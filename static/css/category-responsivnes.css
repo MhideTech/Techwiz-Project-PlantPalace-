@@ -55,6 +55,10 @@ html{
         height: 50px;
         font-size: 3rem;
     }
+    .badgeCart{
+        width: 25px;
+        height: 25px;
+    }
 }
 
 @media screen and (max-width:576px){
