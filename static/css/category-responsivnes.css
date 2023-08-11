@@ -24,7 +24,7 @@ html{
 }
 @media screen and (max-width:767px) {
     html{
-        font-size:48%;
+        font-size:60%;
     }
     .filter{
         width: 90% !important;
@@ -62,7 +62,7 @@ html{
 
 @media screen and (max-width:576px){
     html{
-        font-size: 50%;
+        font-size: 55%;
     }
     .plant-card {
 	    flex-basis: 28rem;

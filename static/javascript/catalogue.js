@@ -5,7 +5,29 @@ const filterContainer = document.querySelector(".filter");
 const plantContainer = document.querySelector(".plant-cards");
 const inputSearch = document.querySelector(`.search-plants`);
 const modalContent = document.querySelector(".modal-content");
+
+const leftPageButton = document.querySelector(".leftArr");
+const righPageButton = document.querySelector(".rightArr");
+
 let plantDataArr;
+let moveleftNum = 0;
+const moveLeft = function () {
+	const paginationContainer = document.getElementById("pagination");
+	paginationContainer.scroll({
+		left: paginationContainer.scrollWidth,
+		behavior: "smooth",
+	});
+};
+
+const moveRight = function () {
+	const paginationContainer = document.getElementById("pagination");
+	paginationContainer.scroll({
+		left: 0,
+		behavior: "smooth",
+	});
+};
+righPageButton.addEventListener("click", moveLeft);
+leftPageButton.addEventListener("click", moveRight);
 const openModal = function () {
 	modal.classList.remove(`hidden`);
 	overlay.classList.remove(`hidden`);
