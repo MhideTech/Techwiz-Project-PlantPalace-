@@ -243,7 +243,7 @@
 }
 .modal-content {
 	display: flex;
-	gap: 10rem;
+	gap: 4rem;
 	padding: 1rem 3rem;
     width: 100%;
     height: fit-content;
