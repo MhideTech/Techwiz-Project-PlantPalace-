@@ -333,3 +333,21 @@
     background-color: black;
     color: rgb(186, 255, 118);
 }
+footer span{
+   font-size: 1.5rem;
+}
+footer .right a i{
+   color: var(--primary-color);
+}
+footer .links h6{
+   font-family: var(--head-font);
+   font-size: 2rem;
+   color: var(--primary-color);
+}
+footer .links p{
+   font-family: var(--text-font);
+   font-size: 1.5rem;
+}
+footer .copyright{
+   font-size: 1.5rem;
+}
