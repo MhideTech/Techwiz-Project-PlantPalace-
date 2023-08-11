@@ -40,7 +40,9 @@ html{
         gap: 2rem;
         width: fit-content;
     }
-    
+    .plant-card .buttons{
+        margin-top: 50px !important;
+    }
 
     .modal-content div{
         width: 100%;
