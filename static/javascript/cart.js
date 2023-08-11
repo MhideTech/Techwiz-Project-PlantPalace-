@@ -1,3 +1,4 @@
+"use-strict"
 const cartContainer = document.querySelector(".cart-items");
 const cartEmpty = document.querySelector(".cart-no-item");
 const closeCartBtn = document.querySelector(".close-cart");
