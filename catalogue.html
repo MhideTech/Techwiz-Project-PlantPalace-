@@ -5,23 +5,83 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Catalogue</title>
 		<link rel="stylesheet" href="./static/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
-		<link rel="stylesheet" href="static/css/catalogue.css" />
-		<link rel="stylesheet" href="static/css/category-responsivnes.css" />
-		    <link rel="shortcut icon" href="./static/images/indoor-plant.png" type="image/x-icon">
-		<script src="static/javascript/catalogue.js" defer></script>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+		/>
+		<link rel="stylesheet" href="./static/css/catalogue.css" />
+		<link rel="stylesheet" href="./static/css/category-responsivnes.css" />
+		<link rel="stylesheet" href="./static/css/cart.css" />
+		<link
+			rel="shortcut icon"
+			href="./static/images/indoor-plant.png"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="./static/css/style.css" />
+		<link rel="stylesheet" href="./static/css/category-responsivnes.css" />
+		<script src="./static/javascript/bootstrap.bundle.min.js" async></script>
+		<script src="./static/javascript/catalogue.js" defer></script>
+		<script src="./static/javascript/cart.js" defer></script>
+		<script src="./static/javascript/script.js" defer></script>
 	</head>
 	<body>
-		<nav></nav>
+		<nav class="navbar navbar-expand-md fixed-top mx-auto z-2">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html"
+					>Plant<span style="color: var(--primary-color)">Palace</span></a
+				>
+				<button
+					class="navbar-toggler border-0 text-white"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<i class="bi bi-list"></i>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a
+								class="nav-link text-center"
+								aria-current="page"
+								href="index.html"
+								>Home</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-center" href="about.html">About Us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-center active" href="catalogue.html"
+								>Plant Catalogue</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-center" href="contact.html">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
 		<div class="container-fluid section-landing my-5">
-        <div class="container">
-            <div class="d-flex justify-content-between">
-                <h1 class="text-white">Catalogue</h1>
-                <p class="d-flex text-white"><span><a href="index.html">Home</a></span> >  Catalogue</p>
-            </div>
-			<input class="search-plants" type="text" placeholder=" e.g Sun Flower" />
-        </div>
-    </div>
+			<div class="container">
+				<div class="d-flex justify-content-between" style="margin-top: 100px;">
+					<h1 class="text-white">Catalogue</h1>
+					<p class="d-flex text-white">
+						<span><a href="index.html">Home</a></span> > Catalogue
+					</p>
+				</div>
+				<input
+					class="search-plants"
+					type="text"
+					placeholder=" e.g Sun Flower"
+				/>
+			</div>
+		</div>
 		<!-- <header>
 			<h1>Catalogue</h1>
 		</header> -->
@@ -31,7 +91,9 @@
 			<div class="filterButton all" data-filter="all">All</div>
 			<div class="filterButton" data-filter="Indoor">Indoor</div>
 			<div class="filterButton" data-filter="Outdoor">Outdoor</div>
-			<div class="filterButton" data-filter="Flowering Succulent">Flowering</div>
+			<div class="filterButton" data-filter="Flowering Succulent">
+				Flowering
+			</div>
 			<div class="filterButton" data-filter="Shrub">Shrubs</div>
 			<a class="filterButton sort" href="#">
 				Sort <span>&nbsp;</span><span>&darr;</span>
@@ -42,8 +104,7 @@
 				</div>
 			</a>
 		</div>
-			<div id="pagination">
-			</div>
+		<div id="pagination"></div>
 		<div class="plant-cards">
 			<div class="plant-card">
 				<div class="img-cont">
@@ -76,8 +137,7 @@
 			</div>
 		</div>
 
-
-		<div class="modalPlant hidden ">
+		<div class="modalPlant hidden">
 			<button class="modal-close">&times;</button>
 			<div class="modal-content">
 				<div class="image-cont">
@@ -94,131 +154,182 @@
 				</div>
 			</div>
 		</div>
-		<div class="overlay hidden "></div>
+		<div class="overlay hidden"></div>
 
+		<div class="cart hidden">
+			<div class="close-cart" role="button">&times;</div>
+			<div class="cart-content">
+				<div class="cart-head">
+					<h3>Your Cart</h3>
+				</div>
+				<div class="cart-items">
+					<!-- <div class="cart-item">
+						<div class="img-cont">
+							<img src="static/images/about-us-1.jpg" alt="Blah" />
+						</div>
+						<div class="name-cont">
+							<p class="name">The Snake Plant</p>
+						</div>
+						<div class="number-cont">
+							<div class="add-subtract">
+								<div class="add oparation">+</div>
+								<div class="value">10</div>
+								<div class="subtract oparation">-</div>
+							</div>
+						</div>
+						<div class="price-cont">
+							<div class="price">
+								$200.00
+								<div class="remove" role="button">Remove</div>
+							</div>
+						</div>
+					</div> -->
+				</div>
+				<div class="cart-no-item">
+					<p>Your Cart Is Empty</p>
+				</div>
+
+				<div class="cart-total">
+					<div class="price-total">
+						<p class="total-text">Total</p>
+						<div class="total-price">$700,00</div>
+					</div>
+
+					<div class="checkout-cont">
+						<div class="checkout_btn" role="button">Checkout</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div role="button" href="#" class="cart-btn heartbeat">
+			<i class="bi bi-cart4 fs-1"></i>
+			<div class="badgeCart">01</div>
+		</div>
 
 		<!-- Footer -->
-    <footer class="text-center text-lg-start bg-white text-muted">
-        <!-- Section: Social media -->
-        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-            <!-- Left -->
-            <div class="me-5 d-none d-lg-block">
-                <span>Get connected with us on social networks:</span>
-            </div>
-            <!-- Left -->
-
-            <!-- Right -->
-            <div class="right">
-                <a href="https://facebook.com/" class="me-4 fs-3 link-secondary">
-                    <i class="bi bi-facebook"></i>
-                </a>
-                <a href="https://twitter.com/" class="me-4 fs-3 link-secondary">
-                    <i class="bi bi-twitter"></i>
-                </a>
-                <a href="https://google.com/" class="me-4 fs-3 link-secondary">
-                    <i class="bi bi-google"></i>
-                </a>
-                <a href="https://instagram.com/" class="me-4 fs-3 link-secondary">
-                    <i class="bi bi-instagram"></i>
-                </a>
-                <a href="https://linkedin.com/" class="me-4 fs-3 link-secondary">
-                    <i class="bi bi-linkedin"></i>
-                </a>
-                <a href="https://github.com/" class="me-4 fs-3 link-secondary">
-                    <i class="bi bi-github"></i>
-                </a>
-            </div>
-            <!-- Right -->
-        </section>
-        <!-- Section: Social media -->
-
-        <!-- Section: Links  -->
-        <section class="links">
-            <div class="container text-center text-md-start mt-5">
-            <!-- Grid row -->
-            <div class="row mt-3">
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <!-- Content -->
-                <h6 class="text-uppercase fw-bold mb-4">
-                    <i class="fas fa-gem me-3 text-secondary"></i>Company name
-                </h6>
-                <p>Nurturing Nature's Beauty: We're dedicated to curating exquisite plants, fostering a green community, and enriching lives through the wonders of botany.</p>
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">
-                    Products
-                </h6>
-                <p>
-                    <a href="catalogue.html" class="text-reset">Indoor Plants</a>
-                </p>
-                <p>
-                    <a href="catalogue.html" class="text-reset">Outdoor Plants</a>
-                </p>
-                <p>
-                    <a href="catalogue.html" class="text-reset">Flowering Succulent</a>
-                </p>
-                <p>
-                    <a href="catalogue.html" class="text-reset">Shrub</a>
-                </p>
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">
-                    Useful links
-                </h6>
-                <p>
-                    <a href="index.html" class="text-reset">Home</a>
-                </p>
-                <p>
-                    <a href="about.html" class="text-reset">About</a>
-                </p>
-                <p>
-                    <a href="catalogue.html" class="text-reset">Plants Catalogue</a>
-                </p>
-                <p>
-                    <a href="contact.html" class="text-reset">Contact Us</a>
-                </p>
-                <p>
-                    <a href="sitemap.html" class="text-reset">Site Map</a>
-                </p>
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                <p><i class="fas fa-home me-3 text-secondary"></i> #1 Joju Bus-stop, Sango Ota, Ogun State</p>
-                <p>
-                    <i class="fas fa-envelope me-3 text-secondary"></i>
-                    plantpalace@example.com
-                </p>
-                <p><i class="fas fa-phone me-3 text-secondary"></i> +234 802 3456 789</p>
-                <p><i class="fas fa-print me-3 text-secondary"></i> +234 809 8765 432</p>
-                </div>
-                <!-- Grid column -->
-            </div>
-            <!-- Grid row -->
-            </div>
-        </section>
-        <!-- Section: Links  -->
-
-        <!-- Copyright -->
-        <div class="text-center p-4 copyright" style="background-color: rgba(0, 0, 0, 0.025); font-family: var(--head-font);">
-            © 2023 Copyright:
-            <a class="text-reset fw-bold" href="index.html">Plant<span style="color: var(--primary-color);">Palace</span></a>
-        </div>
-        <!-- Copyright -->
-    </footer>
-    <!-- Footer -->
-
+		<footer class="text-center text-lg-start bg-white text-muted">
+			<!-- Section: Social media -->
+			<section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+				<!-- Left -->
+				<div class="me-5 d-none d-lg-block">
+					<span>Get connected with us on social networks:</span>
+				</div>
+				<!-- Left -->
+	
+				<!-- Right -->
+				<div class="right">
+					<a href="https://facebook.com/" class="me-4 fs-3 link-secondary">
+						<i class="bi bi-facebook"></i>
+					</a>
+					<a href="https://twitter.com/" class="me-4 fs-3 link-secondary">
+						<i class="bi bi-twitter"></i>
+					</a>
+					<a href="https://google.com/" class="me-4 fs-3 link-secondary">
+						<i class="bi bi-google"></i>
+					</a>
+					<a href="https://instagram.com/" class="me-4 fs-3 link-secondary">
+						<i class="bi bi-instagram"></i>
+					</a>
+					<a href="https://linkedin.com/" class="me-4 fs-3 link-secondary">
+						<i class="bi bi-linkedin"></i>
+					</a>
+					<a href="https://github.com/" class="me-4 fs-3 link-secondary">
+						<i class="bi bi-github"></i>
+					</a>
+				</div>
+				<!-- Right -->
+			</section>
+			<!-- Section: Social media -->
+	
+			<!-- Section: Links  -->
+			<section class="links">
+				<div class="container text-center text-md-start mt-5">
+				<!-- Grid row -->
+				<div class="row mt-3">
+					<!-- Grid column -->
+					<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+					<!-- Content -->
+					<h6 class="text-uppercase fw-bold mb-4">
+						<i class="fas fa-gem me-3 text-secondary"></i>Company name
+					</h6>
+					<p>
+						Nurturing Nature's Beauty: We're dedicated to curating exquisite plants, fostering a green community, and enriching lives through the wonders of botany.
+					</p>
+					</div>
+					<!-- Grid column -->
+	
+					<!-- Grid column -->
+					<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+					<!-- Links -->
+					<h6 class="text-uppercase fw-bold mb-4">
+						Products
+					</h6>
+					<p>
+						<a href="catalogue.html" class="text-reset">Indoor Plants</a>
+					</p>
+					<p>
+						<a href="catalogue.html" class="text-reset">Outdoor Plants</a>
+					</p>
+					<p>
+						<a href="catalogue.html" class="text-reset">Flowering Succulent</a>
+					</p>
+					<p>
+						<a href="catalogue.html" class="text-reset">Shrub</a>
+					</p>
+					</div>
+					<!-- Grid column -->
+	
+					<!-- Grid column -->
+					<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+					<!-- Links -->
+					<h6 class="text-uppercase fw-bold mb-4">
+						Useful links
+					</h6>
+					<p>
+						<a href="index.html" class="text-reset">Home</a>
+					</p>
+					<p>
+						<a href="about.html" class="text-reset">About</a>
+					</p>
+					<p>
+						<a href="catalogue.html" class="text-reset">Plants Catalogue</a>
+					</p>
+					<p>
+						<a href="contact.html" class="text-reset">Contact Us</a>
+					</p>
+					<p>
+						<a href="sitemap.html" class="text-reset">Site Map</a>
+					</p>
+					</div>
+					<!-- Grid column -->
+	
+					<!-- Grid column -->
+					<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+					<!-- Links -->
+					<h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+					<p><i class="fas fa-home me-3 text-secondary"></i> #1 Joju Bus-stop, Sango Ota, Ogun State</p>
+					<p>
+						<i class="fas fa-envelope me-3 text-secondary"></i>
+						plantpalace@example.com
+					</p>
+					<p><i class="fas fa-phone me-3 text-secondary"></i> +234 802 3456 789</p>
+					<p><i class="fas fa-print me-3 text-secondary"></i> +234 809 8765 432</p>
+					</div>
+					<!-- Grid column -->
+				</div>
+				<!-- Grid row -->
+				</div>
+			</section>
+			<!-- Section: Links  -->
+	
+			<!-- Copyright -->
+			<div class="text-center p-4 copyright" style="background-color: rgba(0, 0, 0, 0.025);">
+				© 2023 Copyright:
+				<a class="text-reset fw-bold" href="index.html">Plant<span style="color: var(--primary-color);">Palace</span></a>
+			</div>
+			<!-- Copyright -->
+		</footer>
+		<!-- Footer -->
 	</body>
 </html>

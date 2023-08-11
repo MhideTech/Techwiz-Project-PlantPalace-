@@ -186,7 +186,7 @@ const renderObjModal = function ({
 	light: light,
 }) {
 	const markup = `
-	<div class="modal-content">
+	<div class="modal-content" data-id="${plantId}">
 	<div class="image-cont">
 		<img src="${img}" alt="" />
 	</div>
@@ -196,9 +196,9 @@ const renderObjModal = function ({
 		<p>Origin : ${origin}</p>
 		<p>Watering Requirments : ${watering}</p>
 		<p>Light : ${light}</p>
-		<p>Price: ${plantPrice}</p>
+		<p>Price: $${plantPrice}</p>
 		<p> Category : ${plantCategory} </p>
-		<button class="add-to-cart" data-id="${plantId}" >Add To Cart</button>
+		<button class="add-to-cart" >Add To Cart</button>
 	</div>
 </div>`;
 
@@ -214,12 +214,12 @@ const moreInfo = function (e) {
 	openModal();
 };
 
-plantContainer.addEventListener("click", moreInfo);
+plantContainer?.addEventListener("click", moreInfo);
 renderAll();
-filterContainer.addEventListener("click", handleSort);
-filterContainer.addEventListener(`click`, handleFilter);
-modalCloseBtn.addEventListener("click", closeModal);
-inputSearch.addEventListener("keydown", handleSearch);
+filterContainer?.addEventListener("click", handleSort);
+filterContainer?.addEventListener(`click`, handleFilter);
+modalCloseBtn?.addEventListener("click", closeModal);
+inputSearch?.addEventListener("keydown", handleSearch);
 
 // Create Active Class For Filter Links
 // Add Sort by popularity as an option
