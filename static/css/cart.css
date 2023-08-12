@@ -95,7 +95,8 @@
 }
 
 .cart-no-item {
-	width: 50%;
+	width: 100%;
+	text-align: center;
 	font-size: 3.5rem;
 	margin: 0 auto;
 	margin-top: 45%;
@@ -109,7 +110,6 @@
 .cart-items {
 	height: 80%;
 	width: 100%;
-	/* background-color: rgba(0, 0, 0, 0.3); */
 	overflow-y: scroll;
 }
 
@@ -156,7 +156,6 @@
 .cart .number-cont {
 	width: 20%;
 	height: 100%;
-	/* background-color: black; */
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -183,7 +182,6 @@
 .cart .number-cont .add-subtract > div {
 	font-size: 2rem;
 	width: 33.33%;
-	/* background-color: green; */
 	justify-content: center;
 	display: flex;
 	align-items: center;
@@ -197,6 +195,8 @@
 .cart .price-cont .remove {
 	font-size: 1.5rem;
 	text-decoration: underline !important;
+	font-family: var(--text-font);
+	color: red;
 }
 
 .cart.hidden {
@@ -209,7 +209,6 @@
 
 .cart-total {
 	height: 15%;
-	/* background-color: red; */
 	font-size: 2rem;
 	padding: 0rem 4rem;
 	display: flex;
@@ -225,12 +224,15 @@
 .total-text{
 	margin: 0;
 	font-size: 2rem;
-	color: grey;
+	color: #000;
+	font-family: var(--text-font);
 }
 
 .total-price{
 	margin: 0;
 	font-size: 2.6rem;
+	font-family: var(--head-font);
+	color: var(--primary-color);
 }
 
 .checkout-cont{
@@ -241,18 +243,18 @@
 	justify-content: center;
 }
 .checkout_btn{
-	background-color: black;
+	background-color: var(--primary-color);
 	color: white;
 	padding: 0.5rem 2.6rem;
 	font-size: 1.6rem;
-	border-radius: 20px;
 	margin-left: auto;
 	margin-top: 2rem;
 	transition: .5s;
+	font-family: var(--head-font);
 }
 
 .checkout_btn:hover{
-	background-color: rgb(73, 73, 73);
+	background-color: rgba(0,100,0,0.9);
 	transition: .5s;
 	transform: scale(0.95);
 }
