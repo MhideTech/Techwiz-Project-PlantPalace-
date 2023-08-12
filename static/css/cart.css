@@ -105,6 +105,7 @@
 
 .cart-head h3 {
 	font-size: 3rem;
+	font-family: var(--head-font);
 }
 
 .cart-items {
