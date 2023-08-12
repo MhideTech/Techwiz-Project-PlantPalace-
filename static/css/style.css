@@ -39,7 +39,7 @@ h1 {
 	font-family: var(--head-font);
 }
 .active {
-	color: var(--primary-color) !important;
+	color: #000 !important;
 }
 
 /* Scroll-bar Stylings */
@@ -78,7 +78,7 @@ html::-webkit-scrollbar {
 }
 
 .navbar.afterScroll {
-	background-color: black;
+	background-color: var(--primary-color);
 	width: 100%;
 	padding: 10px 20px;
 	height: fit-content;
