@@ -76,6 +76,9 @@ html::-webkit-scrollbar {
 	height: 13vh;
 	background-color: rgba(0, 0, 0, 0);
 }
+.navbar.b4Scroll .active, .navbar.afterScroll .active{
+	color: #000 !important;
+}
 
 .navbar.afterScroll {
 	background-color: var(--primary-color);
@@ -561,11 +564,14 @@ footer .copyright {
 	}
 
 	.navbar.b4Scroll {
-		background-color: black;
+		background-color: var(--primary-color);
+	}
+	.active{
+		color: #000 !important;
 	}
 
 	.collapse-background {
-		background-color: black;
+		background-color: var(--primary-color);
 	}
 	.navbar.b4scroll {
 		width: 95%;
